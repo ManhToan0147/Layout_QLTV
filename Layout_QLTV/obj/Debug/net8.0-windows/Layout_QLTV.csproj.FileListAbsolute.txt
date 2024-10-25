@@ -25,3 +25,5 @@ D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Custom_Tabs.UC_In
 D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Custom_Tabs.UC_Sent.resources
 D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Custom_Tabs.UC_Settingcs.resources
 D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.UC_Nothing.resources
+D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.sourcelink.json
+D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Properties.Resources.resources
