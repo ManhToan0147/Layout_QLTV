@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Project\\Layout_QLTV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\uc_nothing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\uc_nothing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\frmsignin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\frmsignin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\frmlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\frmlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\uc_sent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\uc_sent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\frmlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\frmlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\uc_sent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\uc_sent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\frmlayout.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\frmlayout.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UC_Sent.cs",
+              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\UC_Sent.cs",
+              "RelativeDocumentMoniker": "Layout_QLTV\\UC_Sent.cs",
+              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\UC_Sent.cs",
+              "RelativeToolTip": "Layout_QLTV\\UC_Sent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T01:47:32.184Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmSignIn.cs [Design]",
+              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\frmSignIn.cs",
+              "RelativeDocumentMoniker": "Layout_QLTV\\frmSignIn.cs",
+              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\frmSignIn.cs [Design]",
+              "RelativeToolTip": "Layout_QLTV\\frmSignIn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T01:56:26.214Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UC_Nothing.cs [Design]",
+              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\UC_Nothing.cs",
+              "RelativeDocumentMoniker": "Layout_QLTV\\UC_Nothing.cs",
+              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\UC_Nothing.cs [Design]",
+              "RelativeToolTip": "Layout_QLTV\\UC_Nothing.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T01:50:01.415Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmLayout.cs",
+              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\frmLayout.cs",
+              "RelativeDocumentMoniker": "Layout_QLTV\\frmLayout.cs",
+              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\frmLayout.cs",
+              "RelativeToolTip": "Layout_QLTV\\frmLayout.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAIA+wEYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T01:44:28.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmLayout.cs [Design]",
+              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\frmLayout.cs",
+              "RelativeDocumentMoniker": "Layout_QLTV\\frmLayout.cs",
+              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\frmLayout.cs [Design]",
+              "RelativeToolTip": "Layout_QLTV\\frmLayout.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T01:44:16.311Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UC_Sent.cs [Design]",
+              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\UC_Sent.cs",
+              "RelativeDocumentMoniker": "Layout_QLTV\\UC_Sent.cs",
+              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\UC_Sent.cs [Design]",
+              "RelativeToolTip": "Layout_QLTV\\UC_Sent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T01:50:30.344Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmLayout.Designer.cs",
+              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\frmLayout.Designer.cs",
+              "RelativeDocumentMoniker": "Layout_QLTV\\frmLayout.Designer.cs",
+              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\frmLayout.Designer.cs",
+              "RelativeToolTip": "Layout_QLTV\\frmLayout.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIAzwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T01:44:04.554Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

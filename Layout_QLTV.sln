@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layout_QLTV", "Layout_QLTV\Layout_QLTV.csproj", "{1534385F-E326-474C-AA2C-C5228CC9DDEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1534385F-E326-474C-AA2C-C5228CC9DDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1534385F-E326-474C-AA2C-C5228CC9DDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1534385F-E326-474C-AA2C-C5228CC9DDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1534385F-E326-474C-AA2C-C5228CC9DDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B048DEB5-CB71-4F29-8EEF-8DD00FE8B72F}
+	EndGlobalSection
+EndGlobal
