@@ -1,6 +1,6 @@
 ﻿namespace Custom_Tabs
 {
-    partial class UC_Home
+    partial class UC_Inbox
     {
         /// <summary> 
         /// Required designer variable.
@@ -36,21 +36,20 @@
             label1.AutoSize = true;
             label1.Font = new Font("Century Gothic", 42F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(620, 250);
+            label1.Location = new Point(695, 236);
             label1.Name = "label1";
-            label1.Size = new Size(333, 114);
-            label1.TabIndex = 2;
-            label1.Text = "Home";
+            label1.Size = new Size(317, 114);
+            label1.TabIndex = 3;
+            label1.Text = "Inbox";
+            label1.Click += label1_Click;
             // 
-            // UC_Home
+            // UC_Inbox
             // 
             AutoScaleDimensions = new SizeF(168F, 168F);
             AutoScaleMode = AutoScaleMode.Dpi;
             Controls.Add(label1);
-            Font = new Font("Century", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Margin = new Padding(4, 3, 4, 3);
-            Name = "UC_Home";
-            Size = new Size(1538, 687);
+            Name = "UC_Inbox";
+            Size = new Size(1706, 1110);
             ResumeLayout(false);
             PerformLayout();
         }

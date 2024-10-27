@@ -1,6 +1,6 @@
-﻿namespace Layout_QLTV
+﻿namespace Custom_Tabs
 {
-    partial class UC_Nothing
+    partial class UC_Home
     {
         /// <summary> 
         /// Required designer variable.
@@ -36,19 +36,21 @@
             label1.AutoSize = true;
             label1.Font = new Font("Century Gothic", 42F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(613, 272);
+            label1.Location = new Point(687, 236);
             label1.Name = "label1";
-            label1.Size = new Size(418, 114);
-            label1.TabIndex = 5;
-            label1.Text = "Nothing";
+            label1.Size = new Size(333, 114);
+            label1.TabIndex = 2;
+            label1.Text = "Home";
             // 
-            // UC_Nothing
+            // UC_Home
             // 
-            AutoScaleDimensions = new SizeF(12F, 30F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(168F, 168F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             Controls.Add(label1);
-            Name = "UC_Nothing";
-            Size = new Size(1538, 687);
+            Font = new Font("Century", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "UC_Home";
+            Size = new Size(1706, 1110);
             ResumeLayout(false);
             PerformLayout();
         }

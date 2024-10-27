@@ -1,6 +1,6 @@
 ﻿namespace Custom_Tabs
 {
-    partial class UC_Inbox
+    partial class UC_Setting
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,34 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
-            // label1
+            // label2
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Century Gothic", 42F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(611, 249);
-            label1.Name = "label1";
-            label1.Size = new Size(317, 114);
-            label1.TabIndex = 3;
-            label1.Text = "Inbox";
-            label1.Click += label1_Click;
+            label2.AutoSize = true;
+            label2.Font = new Font("Century Gothic", 42F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = SystemColors.ActiveCaptionText;
+            label2.Location = new Point(670, 236);
+            label2.Name = "label2";
+            label2.Size = new Size(367, 114);
+            label2.TabIndex = 6;
+            label2.Text = "Setting";
             // 
-            // UC_Inbox
+            // UC_Settingcs
             // 
             AutoScaleDimensions = new SizeF(168F, 168F);
             AutoScaleMode = AutoScaleMode.Dpi;
-            Controls.Add(label1);
-            Name = "UC_Inbox";
-            Size = new Size(1538, 687);
+            Controls.Add(label2);
+            Name = "UC_Settingcs";
+            Size = new Size(1706, 1110);
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private Label label2;
     }
 }

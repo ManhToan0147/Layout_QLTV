@@ -49,9 +49,14 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLayout));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panelControl = new Panel();
+            lblTenSP = new Label();
             guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -60,42 +65,61 @@
             guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(components);
             guna2ResizeForm1 = new Guna.UI2.WinForms.Guna2ResizeForm(components);
             lblTenApp = new Label();
-            panel2 = new Panel();
+            panelSideBar = new Panel();
+            btnBaoCao = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            panelLine = new Panel();
+            lblSupport = new Label();
+            lblMain = new Label();
+            btnNothing = new Guna.UI2.WinForms.Guna2Button();
+            btnSetting = new Guna.UI2.WinForms.Guna2Button();
+            btnSent = new Guna.UI2.WinForms.Guna2Button();
+            btnInbox = new Guna.UI2.WinForms.Guna2Button();
+            btnHome = new Guna.UI2.WinForms.Guna2Button();
             pictureBox1 = new PictureBox();
             btnSignIn = new Guna.UI2.WinForms.Guna2Button();
-            guna2GradientButton6 = new Guna.UI2.WinForms.Guna2GradientButton();
-            btnNothing = new Guna.UI2.WinForms.Guna2GradientButton();
-            btnSetting = new Guna.UI2.WinForms.Guna2GradientButton();
-            btnSent = new Guna.UI2.WinForms.Guna2GradientButton();
-            btnInbox = new Guna.UI2.WinForms.Guna2GradientButton();
-            btnHome = new Guna.UI2.WinForms.Guna2GradientButton();
             panel1 = new Panel();
             statusStrip1 = new StatusStrip();
             staThoiGian = new ToolStripStatusLabel();
             timer1 = new System.Windows.Forms.Timer(components);
             panelContainer = new Panel();
-            panelUser = new Panel();
             guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            panelUser = new Panel();
             panelControl.SuspendLayout();
-            panel2.SuspendLayout();
+            panelSideBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             statusStrip1.SuspendLayout();
-            panelUser.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).BeginInit();
+            panelUser.SuspendLayout();
             SuspendLayout();
             // 
             // panelControl
             // 
-            panelControl.BackColor = Color.LightSkyBlue;
+            panelControl.BackColor = Color.SkyBlue;
+            panelControl.Controls.Add(lblTenSP);
             panelControl.Controls.Add(guna2ControlBox3);
             panelControl.Controls.Add(guna2ControlBox2);
             panelControl.Controls.Add(guna2ControlBox1);
             panelControl.Dock = DockStyle.Top;
             panelControl.Location = new Point(0, 0);
             panelControl.Name = "panelControl";
-            panelControl.Size = new Size(1865, 53);
+            panelControl.Size = new Size(2224, 53);
             panelControl.TabIndex = 0;
+            // 
+            // lblTenSP
+            // 
+            lblTenSP.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            lblTenSP.AutoSize = true;
+            lblTenSP.BackColor = Color.Transparent;
+            lblTenSP.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTenSP.ForeColor = Color.FromArgb(9, 62, 135);
+            lblTenSP.Location = new Point(993, 11);
+            lblTenSP.Name = "lblTenSP";
+            lblTenSP.Size = new Size(381, 32);
+            lblTenSP.TabIndex = 7;
+            lblTenSP.Text = "PHẦN MỀM QUẢN LÝ THƯ VIỆN";
             // 
             // guna2ControlBox3
             // 
@@ -107,7 +131,7 @@
             guna2ControlBox3.HoverState.FillColor = Color.White;
             guna2ControlBox3.HoverState.IconColor = Color.Black;
             guna2ControlBox3.IconColor = Color.Black;
-            guna2ControlBox3.Location = new Point(1706, 0);
+            guna2ControlBox3.Location = new Point(2065, 0);
             guna2ControlBox3.Name = "guna2ControlBox3";
             guna2ControlBox3.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2ControlBox3.Size = new Size(79, 53);
@@ -123,7 +147,7 @@
             guna2ControlBox2.HoverState.FillColor = Color.White;
             guna2ControlBox2.HoverState.IconColor = Color.FromArgb(2, 76, 170);
             guna2ControlBox2.IconColor = Color.Black;
-            guna2ControlBox2.Location = new Point(1627, 0);
+            guna2ControlBox2.Location = new Point(1986, 0);
             guna2ControlBox2.Name = "guna2ControlBox2";
             guna2ControlBox2.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2ControlBox2.Size = new Size(79, 53);
@@ -138,7 +162,7 @@
             guna2ControlBox1.HoverState.FillColor = Color.Red;
             guna2ControlBox1.HoverState.IconColor = Color.White;
             guna2ControlBox1.IconColor = Color.Black;
-            guna2ControlBox1.Location = new Point(1785, 0);
+            guna2ControlBox1.Location = new Point(2144, 0);
             guna2ControlBox1.Name = "guna2ControlBox1";
             guna2ControlBox1.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2ControlBox1.Size = new Size(79, 53);
@@ -167,34 +191,336 @@
             lblTenApp.AutoSize = true;
             lblTenApp.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTenApp.ForeColor = Color.FromArgb(2, 76, 170);
-            lblTenApp.Location = new Point(61, 225);
+            lblTenApp.Location = new Point(23, 239);
             lblTenApp.Name = "lblTenApp";
-            lblTenApp.Size = new Size(244, 74);
+            lblTenApp.Size = new Size(390, 74);
             lblTenApp.TabIndex = 0;
-            lblTenApp.Text = "NEU LIB";
+            lblTenApp.Text = "NEU LIBRARY";
             // 
-            // panel2
+            // panelSideBar
             // 
-            panel2.BackColor = Color.White;
-            panel2.Controls.Add(pictureBox1);
-            panel2.Controls.Add(btnSignIn);
-            panel2.Controls.Add(guna2GradientButton6);
-            panel2.Controls.Add(btnNothing);
-            panel2.Controls.Add(btnSetting);
-            panel2.Controls.Add(btnSent);
-            panel2.Controls.Add(btnInbox);
-            panel2.Controls.Add(btnHome);
-            panel2.Controls.Add(lblTenApp);
-            panel2.Dock = DockStyle.Left;
-            panel2.Location = new Point(0, 53);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(376, 1099);
-            panel2.TabIndex = 1;
+            panelSideBar.BackColor = Color.White;
+            panelSideBar.Controls.Add(btnBaoCao);
+            panelSideBar.Controls.Add(guna2Button2);
+            panelSideBar.Controls.Add(guna2Button1);
+            panelSideBar.Controls.Add(panelLine);
+            panelSideBar.Controls.Add(lblSupport);
+            panelSideBar.Controls.Add(lblMain);
+            panelSideBar.Controls.Add(btnNothing);
+            panelSideBar.Controls.Add(btnSetting);
+            panelSideBar.Controls.Add(btnSent);
+            panelSideBar.Controls.Add(btnInbox);
+            panelSideBar.Controls.Add(btnHome);
+            panelSideBar.Controls.Add(pictureBox1);
+            panelSideBar.Controls.Add(btnSignIn);
+            panelSideBar.Controls.Add(lblTenApp);
+            panelSideBar.Dock = DockStyle.Left;
+            panelSideBar.Location = new Point(0, 53);
+            panelSideBar.Name = "panelSideBar";
+            panelSideBar.Size = new Size(437, 1410);
+            panelSideBar.TabIndex = 1;
+            // 
+            // btnBaoCao
+            // 
+            btnBaoCao.AutoRoundedCorners = true;
+            btnBaoCao.BorderRadius = 38;
+            btnBaoCao.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            btnBaoCao.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
+            btnBaoCao.CheckedState.ForeColor = Color.White;
+            btnBaoCao.CustomizableEdges = customizableEdges8;
+            btnBaoCao.DisabledState.BorderColor = Color.DarkGray;
+            btnBaoCao.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnBaoCao.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnBaoCao.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnBaoCao.FillColor = Color.White;
+            btnBaoCao.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnBaoCao.ForeColor = Color.FromArgb(9, 62, 135);
+            btnBaoCao.HoverState.FillColor = Color.FromArgb(0, 172, 232);
+            btnBaoCao.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnBaoCao.HoverState.ForeColor = Color.White;
+            btnBaoCao.HoverState.Image = Layout_QLTV.Properties.Resources.chart_area__1_;
+            btnBaoCao.Image = Layout_QLTV.Properties.Resources.chart_area;
+            btnBaoCao.ImageAlign = HorizontalAlignment.Left;
+            btnBaoCao.ImageOffset = new Point(60, 0);
+            btnBaoCao.ImageSize = new Size(25, 25);
+            btnBaoCao.Location = new Point(34, 832);
+            btnBaoCao.Name = "btnBaoCao";
+            btnBaoCao.ShadowDecoration.CustomizableEdges = customizableEdges9;
+            btnBaoCao.Size = new Size(367, 79);
+            btnBaoCao.TabIndex = 9;
+            btnBaoCao.Text = "Báo cáo";
+            btnBaoCao.TextAlign = HorizontalAlignment.Left;
+            btnBaoCao.TextOffset = new Point(80, 0);
+            // 
+            // guna2Button2
+            // 
+            guna2Button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            guna2Button2.AutoRoundedCorners = true;
+            guna2Button2.BorderRadius = 38;
+            guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            guna2Button2.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
+            guna2Button2.CheckedState.ForeColor = Color.White;
+            guna2Button2.CustomizableEdges = customizableEdges10;
+            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button2.FillColor = Color.White;
+            guna2Button2.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2Button2.ForeColor = Color.FromArgb(9, 62, 135);
+            guna2Button2.HoverState.FillColor = Color.FromArgb(0, 172, 232);
+            guna2Button2.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2Button2.HoverState.ForeColor = Color.White;
+            guna2Button2.HoverState.Image = Layout_QLTV.Properties.Resources.settings__1_;
+            guna2Button2.Image = Layout_QLTV.Properties.Resources.settings;
+            guna2Button2.ImageAlign = HorizontalAlignment.Left;
+            guna2Button2.ImageOffset = new Point(60, 0);
+            guna2Button2.ImageSize = new Size(25, 25);
+            guna2Button2.Location = new Point(34, 1137);
+            guna2Button2.Name = "guna2Button2";
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges11;
+            guna2Button2.Size = new Size(367, 79);
+            guna2Button2.TabIndex = 8;
+            guna2Button2.Text = "Cài đặt";
+            guna2Button2.TextAlign = HorizontalAlignment.Left;
+            guna2Button2.TextOffset = new Point(80, 0);
+            // 
+            // guna2Button1
+            // 
+            guna2Button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            guna2Button1.AutoRoundedCorners = true;
+            guna2Button1.BorderRadius = 38;
+            guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            guna2Button1.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
+            guna2Button1.CheckedState.ForeColor = Color.White;
+            guna2Button1.CustomizableEdges = customizableEdges12;
+            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button1.FillColor = Color.White;
+            guna2Button1.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2Button1.ForeColor = Color.FromArgb(9, 62, 135);
+            guna2Button1.HoverState.FillColor = Color.FromArgb(0, 172, 232);
+            guna2Button1.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2Button1.HoverState.ForeColor = Color.White;
+            guna2Button1.HoverState.Image = Layout_QLTV.Properties.Resources.guide_alt__1_;
+            guna2Button1.Image = Layout_QLTV.Properties.Resources.guide_alt;
+            guna2Button1.ImageAlign = HorizontalAlignment.Left;
+            guna2Button1.ImageOffset = new Point(60, 0);
+            guna2Button1.ImageSize = new Size(25, 25);
+            guna2Button1.Location = new Point(34, 1052);
+            guna2Button1.Name = "guna2Button1";
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges13;
+            guna2Button1.Size = new Size(367, 79);
+            guna2Button1.TabIndex = 8;
+            guna2Button1.Text = "Hướng dẫn";
+            guna2Button1.TextAlign = HorizontalAlignment.Left;
+            guna2Button1.TextOffset = new Point(80, 0);
+            // 
+            // panelLine
+            // 
+            panelLine.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            panelLine.BackColor = Color.DimGray;
+            panelLine.Location = new Point(47, 973);
+            panelLine.Name = "panelLine";
+            panelLine.Size = new Size(350, 2);
+            panelLine.TabIndex = 7;
+            // 
+            // lblSupport
+            // 
+            lblSupport.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            lblSupport.AutoSize = true;
+            lblSupport.BackColor = Color.Transparent;
+            lblSupport.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblSupport.ForeColor = Color.DimGray;
+            lblSupport.Location = new Point(47, 993);
+            lblSupport.Name = "lblSupport";
+            lblSupport.Size = new Size(101, 30);
+            lblSupport.TabIndex = 6;
+            lblSupport.Text = "SUPPORT";
+            // 
+            // lblMain
+            // 
+            lblMain.AutoSize = true;
+            lblMain.BackColor = Color.Transparent;
+            lblMain.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblMain.ForeColor = Color.DimGray;
+            lblMain.Location = new Point(47, 355);
+            lblMain.Name = "lblMain";
+            lblMain.Size = new Size(134, 30);
+            lblMain.TabIndex = 6;
+            lblMain.Text = "MAIN MENU";
+            // 
+            // btnNothing
+            // 
+            btnNothing.AutoRoundedCorners = true;
+            btnNothing.BorderRadius = 38;
+            btnNothing.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            btnNothing.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
+            btnNothing.CheckedState.ForeColor = Color.White;
+            btnNothing.CustomizableEdges = customizableEdges14;
+            btnNothing.DisabledState.BorderColor = Color.DarkGray;
+            btnNothing.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnNothing.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnNothing.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnNothing.FillColor = Color.White;
+            btnNothing.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnNothing.ForeColor = Color.FromArgb(9, 62, 135);
+            btnNothing.HoverState.FillColor = Color.FromArgb(0, 172, 232);
+            btnNothing.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnNothing.HoverState.ForeColor = Color.White;
+            btnNothing.HoverState.Image = Layout_QLTV.Properties.Resources.calendar_lines_pen__1_;
+            btnNothing.Image = Layout_QLTV.Properties.Resources.calendar_lines_pen;
+            btnNothing.ImageAlign = HorizontalAlignment.Left;
+            btnNothing.ImageOffset = new Point(60, 0);
+            btnNothing.ImageSize = new Size(25, 25);
+            btnNothing.Location = new Point(34, 747);
+            btnNothing.Name = "btnNothing";
+            btnNothing.ShadowDecoration.CustomizableEdges = customizableEdges15;
+            btnNothing.Size = new Size(367, 79);
+            btnNothing.TabIndex = 5;
+            btnNothing.Text = "Quản lý mượn trả";
+            btnNothing.TextAlign = HorizontalAlignment.Left;
+            btnNothing.TextOffset = new Point(80, 0);
+            btnNothing.Click += btnNothing_Click;
+            // 
+            // btnSetting
+            // 
+            btnSetting.AutoRoundedCorners = true;
+            btnSetting.BorderRadius = 38;
+            btnSetting.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            btnSetting.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
+            btnSetting.CheckedState.ForeColor = Color.White;
+            btnSetting.CustomizableEdges = customizableEdges16;
+            btnSetting.DisabledState.BorderColor = Color.DarkGray;
+            btnSetting.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSetting.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSetting.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSetting.FillColor = Color.White;
+            btnSetting.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSetting.ForeColor = Color.FromArgb(9, 62, 135);
+            btnSetting.HoverState.FillColor = Color.FromArgb(0, 172, 232);
+            btnSetting.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSetting.HoverState.ForeColor = Color.White;
+            btnSetting.HoverState.Image = Layout_QLTV.Properties.Resources.book_open_reader__1_;
+            btnSetting.Image = Layout_QLTV.Properties.Resources.book_open_reader;
+            btnSetting.ImageAlign = HorizontalAlignment.Left;
+            btnSetting.ImageOffset = new Point(60, 0);
+            btnSetting.ImageSize = new Size(25, 25);
+            btnSetting.Location = new Point(34, 662);
+            btnSetting.Name = "btnSetting";
+            btnSetting.ShadowDecoration.CustomizableEdges = customizableEdges17;
+            btnSetting.Size = new Size(367, 79);
+            btnSetting.TabIndex = 5;
+            btnSetting.Text = "Quản lý độc giả";
+            btnSetting.TextAlign = HorizontalAlignment.Left;
+            btnSetting.TextOffset = new Point(80, 0);
+            btnSetting.Click += btnSetting_Click;
+            // 
+            // btnSent
+            // 
+            btnSent.AutoRoundedCorners = true;
+            btnSent.BorderRadius = 38;
+            btnSent.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            btnSent.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
+            btnSent.CheckedState.ForeColor = Color.White;
+            btnSent.CustomizableEdges = customizableEdges18;
+            btnSent.DisabledState.BorderColor = Color.DarkGray;
+            btnSent.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSent.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSent.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSent.FillColor = Color.White;
+            btnSent.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSent.ForeColor = Color.FromArgb(9, 62, 135);
+            btnSent.HoverState.FillColor = Color.FromArgb(0, 172, 232);
+            btnSent.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSent.HoverState.ForeColor = Color.White;
+            btnSent.HoverState.Image = Layout_QLTV.Properties.Resources.pen_nib__1_;
+            btnSent.Image = Layout_QLTV.Properties.Resources.pen_nib;
+            btnSent.ImageAlign = HorizontalAlignment.Left;
+            btnSent.ImageOffset = new Point(60, 0);
+            btnSent.ImageSize = new Size(25, 25);
+            btnSent.Location = new Point(34, 577);
+            btnSent.Name = "btnSent";
+            btnSent.ShadowDecoration.CustomizableEdges = customizableEdges19;
+            btnSent.Size = new Size(367, 79);
+            btnSent.TabIndex = 5;
+            btnSent.Text = "Quản lý tác giả";
+            btnSent.TextAlign = HorizontalAlignment.Left;
+            btnSent.TextOffset = new Point(80, 0);
+            btnSent.Click += btnSent_Click;
+            // 
+            // btnInbox
+            // 
+            btnInbox.AutoRoundedCorners = true;
+            btnInbox.BorderRadius = 38;
+            btnInbox.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            btnInbox.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
+            btnInbox.CheckedState.ForeColor = Color.White;
+            btnInbox.CustomizableEdges = customizableEdges20;
+            btnInbox.DisabledState.BorderColor = Color.DarkGray;
+            btnInbox.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnInbox.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnInbox.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnInbox.FillColor = Color.White;
+            btnInbox.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnInbox.ForeColor = Color.FromArgb(9, 62, 135);
+            btnInbox.HoverState.FillColor = Color.FromArgb(0, 172, 232);
+            btnInbox.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnInbox.HoverState.ForeColor = Color.White;
+            btnInbox.HoverState.Image = Layout_QLTV.Properties.Resources.book_open_cover__1_;
+            btnInbox.Image = Layout_QLTV.Properties.Resources.book_open_cover;
+            btnInbox.ImageAlign = HorizontalAlignment.Left;
+            btnInbox.ImageOffset = new Point(60, 0);
+            btnInbox.ImageSize = new Size(25, 25);
+            btnInbox.Location = new Point(34, 492);
+            btnInbox.Name = "btnInbox";
+            btnInbox.ShadowDecoration.CustomizableEdges = customizableEdges21;
+            btnInbox.Size = new Size(367, 79);
+            btnInbox.TabIndex = 5;
+            btnInbox.Text = "Quản lý sách";
+            btnInbox.TextAlign = HorizontalAlignment.Left;
+            btnInbox.TextOffset = new Point(80, 0);
+            btnInbox.Click += btnInbox_Click;
+            // 
+            // btnHome
+            // 
+            btnHome.AutoRoundedCorners = true;
+            btnHome.BorderRadius = 38;
+            btnHome.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            btnHome.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
+            btnHome.CheckedState.ForeColor = Color.White;
+            btnHome.CustomizableEdges = customizableEdges22;
+            btnHome.DisabledState.BorderColor = Color.DarkGray;
+            btnHome.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnHome.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnHome.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnHome.FillColor = Color.White;
+            btnHome.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnHome.ForeColor = Color.FromArgb(9, 62, 135);
+            btnHome.HoverState.FillColor = Color.FromArgb(0, 172, 232);
+            btnHome.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnHome.HoverState.ForeColor = Color.White;
+            btnHome.HoverState.Image = Layout_QLTV.Properties.Resources.home__1_;
+            btnHome.Image = Layout_QLTV.Properties.Resources.home1;
+            btnHome.ImageAlign = HorizontalAlignment.Left;
+            btnHome.ImageOffset = new Point(60, 0);
+            btnHome.ImageSize = new Size(25, 25);
+            btnHome.Location = new Point(34, 407);
+            btnHome.Name = "btnHome";
+            btnHome.ShadowDecoration.CustomizableEdges = customizableEdges23;
+            btnHome.Size = new Size(367, 79);
+            btnHome.TabIndex = 5;
+            btnHome.Text = "Trang chủ";
+            btnHome.TextAlign = HorizontalAlignment.Left;
+            btnHome.TextOffset = new Point(80, 0);
+            btnHome.Click += btnHome_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(93, 28);
+            pictureBox1.Location = new Point(131, 28);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(175, 175);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -206,7 +532,7 @@
             btnSignIn.Anchor = AnchorStyles.Bottom;
             btnSignIn.AutoRoundedCorners = true;
             btnSignIn.BorderRadius = 38;
-            btnSignIn.CustomizableEdges = customizableEdges8;
+            btnSignIn.CustomizableEdges = customizableEdges24;
             btnSignIn.DisabledState.BorderColor = Color.DarkGray;
             btnSignIn.DisabledState.CustomBorderColor = Color.DarkGray;
             btnSignIn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -215,200 +541,33 @@
             btnSignIn.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSignIn.ForeColor = Color.White;
             btnSignIn.HoverState.FillColor = Color.FromArgb(198, 46, 46);
-            btnSignIn.Location = new Point(34, 938);
+            btnSignIn.Location = new Point(34, 1259);
             btnSignIn.Name = "btnSignIn";
-            btnSignIn.ShadowDecoration.CustomizableEdges = customizableEdges9;
-            btnSignIn.Size = new Size(318, 79);
+            btnSignIn.ShadowDecoration.CustomizableEdges = customizableEdges25;
+            btnSignIn.Size = new Size(367, 79);
             btnSignIn.TabIndex = 3;
             btnSignIn.Text = "Sign In";
             btnSignIn.Click += btnSignIn_Click;
-            // 
-            // guna2GradientButton6
-            // 
-            guna2GradientButton6.BackColor = Color.White;
-            guna2GradientButton6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            guna2GradientButton6.CheckedState.FillColor = Color.FromArgb(2, 76, 170);
-            guna2GradientButton6.CheckedState.FillColor2 = Color.Black;
-            guna2GradientButton6.CustomizableEdges = customizableEdges10;
-            guna2GradientButton6.DisabledState.BorderColor = Color.DarkGray;
-            guna2GradientButton6.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2GradientButton6.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2GradientButton6.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            guna2GradientButton6.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2GradientButton6.FillColor = Color.White;
-            guna2GradientButton6.FillColor2 = Color.White;
-            guna2GradientButton6.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold);
-            guna2GradientButton6.ForeColor = Color.FromArgb(9, 62, 135);
-            guna2GradientButton6.HoverState.FillColor = Color.FromArgb(2, 76, 170);
-            guna2GradientButton6.HoverState.FillColor2 = Color.Black;
-            guna2GradientButton6.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2GradientButton6.HoverState.ForeColor = Color.White;
-            guna2GradientButton6.Location = new Point(1, 724);
-            guna2GradientButton6.Name = "guna2GradientButton6";
-            guna2GradientButton6.ShadowDecoration.CustomizableEdges = customizableEdges11;
-            guna2GradientButton6.Size = new Size(372, 79);
-            guna2GradientButton6.TabIndex = 2;
-            guna2GradientButton6.Text = "Nothing";
-            // 
-            // btnNothing
-            // 
-            btnNothing.BackColor = Color.White;
-            btnNothing.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnNothing.CheckedState.FillColor = Color.FromArgb(2, 76, 170);
-            btnNothing.CheckedState.FillColor2 = Color.Black;
-            btnNothing.CustomizableEdges = customizableEdges12;
-            btnNothing.DisabledState.BorderColor = Color.DarkGray;
-            btnNothing.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnNothing.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnNothing.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            btnNothing.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnNothing.FillColor = Color.White;
-            btnNothing.FillColor2 = Color.White;
-            btnNothing.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold);
-            btnNothing.ForeColor = Color.FromArgb(9, 62, 135);
-            btnNothing.HoverState.FillColor = Color.FromArgb(2, 76, 170);
-            btnNothing.HoverState.FillColor2 = Color.Black;
-            btnNothing.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNothing.HoverState.ForeColor = Color.White;
-            btnNothing.Location = new Point(1, 645);
-            btnNothing.Name = "btnNothing";
-            btnNothing.ShadowDecoration.CustomizableEdges = customizableEdges13;
-            btnNothing.Size = new Size(372, 79);
-            btnNothing.TabIndex = 2;
-            btnNothing.Text = "Notthing";
-            btnNothing.Click += btnNothing_Click;
-            // 
-            // btnSetting
-            // 
-            btnSetting.BackColor = Color.White;
-            btnSetting.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnSetting.CheckedState.FillColor = Color.FromArgb(2, 76, 170);
-            btnSetting.CheckedState.FillColor2 = Color.Black;
-            btnSetting.CustomizableEdges = customizableEdges14;
-            btnSetting.DisabledState.BorderColor = Color.DarkGray;
-            btnSetting.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnSetting.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnSetting.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            btnSetting.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnSetting.FillColor = Color.White;
-            btnSetting.FillColor2 = Color.White;
-            btnSetting.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold);
-            btnSetting.ForeColor = Color.FromArgb(9, 62, 135);
-            btnSetting.HoverState.FillColor = Color.FromArgb(2, 76, 170);
-            btnSetting.HoverState.FillColor2 = Color.Black;
-            btnSetting.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSetting.HoverState.ForeColor = Color.White;
-            btnSetting.Location = new Point(1, 566);
-            btnSetting.Name = "btnSetting";
-            btnSetting.ShadowDecoration.CustomizableEdges = customizableEdges15;
-            btnSetting.Size = new Size(372, 79);
-            btnSetting.TabIndex = 2;
-            btnSetting.Text = "Setting";
-            btnSetting.Click += btnSetting_Click;
-            // 
-            // btnSent
-            // 
-            btnSent.BackColor = Color.White;
-            btnSent.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnSent.CheckedState.FillColor = Color.FromArgb(2, 76, 170);
-            btnSent.CheckedState.FillColor2 = Color.Black;
-            btnSent.CustomizableEdges = customizableEdges16;
-            btnSent.DisabledState.BorderColor = Color.DarkGray;
-            btnSent.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnSent.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnSent.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            btnSent.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnSent.FillColor = Color.White;
-            btnSent.FillColor2 = Color.White;
-            btnSent.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold);
-            btnSent.ForeColor = Color.FromArgb(9, 62, 135);
-            btnSent.HoverState.FillColor = Color.FromArgb(2, 76, 170);
-            btnSent.HoverState.FillColor2 = Color.Black;
-            btnSent.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSent.HoverState.ForeColor = Color.White;
-            btnSent.Location = new Point(1, 487);
-            btnSent.Name = "btnSent";
-            btnSent.ShadowDecoration.CustomizableEdges = customizableEdges17;
-            btnSent.Size = new Size(372, 79);
-            btnSent.TabIndex = 2;
-            btnSent.Text = "Sent";
-            btnSent.Click += btnSent_Click;
-            // 
-            // btnInbox
-            // 
-            btnInbox.BackColor = Color.White;
-            btnInbox.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnInbox.CheckedState.FillColor = Color.FromArgb(2, 76, 170);
-            btnInbox.CheckedState.FillColor2 = Color.Black;
-            btnInbox.CustomizableEdges = customizableEdges18;
-            btnInbox.DisabledState.BorderColor = Color.DarkGray;
-            btnInbox.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnInbox.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnInbox.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            btnInbox.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnInbox.FillColor = Color.White;
-            btnInbox.FillColor2 = Color.White;
-            btnInbox.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold);
-            btnInbox.ForeColor = Color.FromArgb(9, 62, 135);
-            btnInbox.HoverState.FillColor = Color.FromArgb(2, 76, 170);
-            btnInbox.HoverState.FillColor2 = Color.Black;
-            btnInbox.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnInbox.HoverState.ForeColor = Color.White;
-            btnInbox.Location = new Point(1, 408);
-            btnInbox.Name = "btnInbox";
-            btnInbox.ShadowDecoration.CustomizableEdges = customizableEdges19;
-            btnInbox.Size = new Size(372, 79);
-            btnInbox.TabIndex = 2;
-            btnInbox.Text = "Inbox";
-            btnInbox.Click += btnInbox_Click;
-            // 
-            // btnHome
-            // 
-            btnHome.BackColor = Color.White;
-            btnHome.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnHome.CheckedState.FillColor = Color.FromArgb(2, 76, 170);
-            btnHome.CheckedState.FillColor2 = Color.Black;
-            btnHome.CustomizableEdges = customizableEdges20;
-            btnHome.DisabledState.BorderColor = Color.DarkGray;
-            btnHome.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnHome.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnHome.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            btnHome.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnHome.FillColor = Color.White;
-            btnHome.FillColor2 = Color.White;
-            btnHome.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold);
-            btnHome.ForeColor = Color.FromArgb(9, 62, 135);
-            btnHome.HoverState.FillColor = Color.FromArgb(2, 76, 170);
-            btnHome.HoverState.FillColor2 = Color.Black;
-            btnHome.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnHome.HoverState.ForeColor = Color.White;
-            btnHome.Location = new Point(1, 329);
-            btnHome.Name = "btnHome";
-            btnHome.ShadowDecoration.CustomizableEdges = customizableEdges21;
-            btnHome.Size = new Size(372, 79);
-            btnHome.TabIndex = 2;
-            btnHome.Text = "Home";
-            btnHome.Click += btnHome_Click;
             // 
             // panel1
             // 
             panel1.BackColor = Color.White;
             panel1.Controls.Add(statusStrip1);
             panel1.Dock = DockStyle.Bottom;
-            panel1.Location = new Point(0, 1152);
+            panel1.Location = new Point(0, 1463);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1865, 53);
+            panel1.Size = new Size(2224, 53);
             panel1.TabIndex = 2;
             // 
             // statusStrip1
             // 
-            statusStrip1.BackColor = Color.LightSkyBlue;
+            statusStrip1.BackColor = Color.SkyBlue;
             statusStrip1.Dock = DockStyle.Fill;
             statusStrip1.ImageScalingSize = new Size(28, 28);
             statusStrip1.Items.AddRange(new ToolStripItem[] { staThoiGian });
             statusStrip1.Location = new Point(0, 0);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(1865, 53);
+            statusStrip1.Size = new Size(2224, 53);
             statusStrip1.TabIndex = 0;
             statusStrip1.Text = "statusStrip1";
             // 
@@ -429,44 +588,45 @@
             // 
             // panelContainer
             // 
-            panelContainer.Anchor = AnchorStyles.Top;
-            panelContainer.Location = new Point(376, 122);
+            panelContainer.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            panelContainer.Location = new Point(508, 143);
             panelContainer.Name = "panelContainer";
-            panelContainer.Size = new Size(1489, 1018);
+            panelContainer.Size = new Size(1713, 1320);
             panelContainer.TabIndex = 3;
-            // 
-            // panelUser
-            // 
-            panelUser.Controls.Add(guna2CirclePictureBox1);
-            panelUser.Dock = DockStyle.Top;
-            panelUser.Location = new Point(376, 53);
-            panelUser.Name = "panelUser";
-            panelUser.Size = new Size(1489, 68);
-            panelUser.TabIndex = 4;
             // 
             // guna2CirclePictureBox1
             // 
             guna2CirclePictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             guna2CirclePictureBox1.Image = (Image)resources.GetObject("guna2CirclePictureBox1.Image");
             guna2CirclePictureBox1.ImageRotate = 0F;
-            guna2CirclePictureBox1.Location = new Point(1409, 3);
+            guna2CirclePictureBox1.Location = new Point(1684, 3);
             guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges7;
             guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            guna2CirclePictureBox1.Size = new Size(62, 62);
+            guna2CirclePictureBox1.Size = new Size(81, 81);
             guna2CirclePictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             guna2CirclePictureBox1.TabIndex = 0;
             guna2CirclePictureBox1.TabStop = false;
+            // 
+            // panelUser
+            // 
+            panelUser.BackColor = Color.FromArgb(2, 76, 170);
+            panelUser.Controls.Add(guna2CirclePictureBox1);
+            panelUser.Dock = DockStyle.Top;
+            panelUser.Location = new Point(437, 53);
+            panelUser.Name = "panelUser";
+            panelUser.Size = new Size(1787, 90);
+            panelUser.TabIndex = 4;
             // 
             // frmLayout
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(1865, 1205);
+            ClientSize = new Size(2224, 1516);
             Controls.Add(panelUser);
             Controls.Add(panelContainer);
-            Controls.Add(panel2);
+            Controls.Add(panelSideBar);
             Controls.Add(panelControl);
             Controls.Add(panel1);
             ForeColor = Color.White;
@@ -475,15 +635,16 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             panelControl.ResumeLayout(false);
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
+            panelControl.PerformLayout();
+            panelSideBar.ResumeLayout(false);
+            panelSideBar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             statusStrip1.ResumeLayout(false);
             statusStrip1.PerformLayout();
-            panelUser.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();
+            panelUser.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -497,22 +658,28 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2ResizeForm guna2ResizeForm1;
-        private Panel panel2;
+        private Panel panelSideBar;
         private Label lblTenApp;
         private Panel panel1;
         private System.Windows.Forms.Timer timer1;
         private StatusStrip statusStrip1;
         private ToolStripStatusLabel staThoiGian;
-        private Guna.UI2.WinForms.Guna2GradientButton btnHome;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton6;
-        private Guna.UI2.WinForms.Guna2GradientButton btnNothing;
-        private Guna.UI2.WinForms.Guna2GradientButton btnSetting;
-        private Guna.UI2.WinForms.Guna2GradientButton btnSent;
-        private Guna.UI2.WinForms.Guna2GradientButton btnInbox;
         private Guna.UI2.WinForms.Guna2Button btnSignIn;
         private PictureBox pictureBox1;
         private Panel panelContainer;
         private Panel panelUser;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2Button btnHome;
+        private Guna.UI2.WinForms.Guna2Button btnNothing;
+        private Guna.UI2.WinForms.Guna2Button btnSetting;
+        private Guna.UI2.WinForms.Guna2Button btnSent;
+        private Guna.UI2.WinForms.Guna2Button btnInbox;
+        private Label lblMain;
+        private Panel panelLine;
+        private Label lblSupport;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Label lblTenSP;
+        private Guna.UI2.WinForms.Guna2Button btnBaoCao;
     }
 }

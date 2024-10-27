@@ -7,19 +7,19 @@
     <Compile Update="frmSignIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="UC_Home.cs">
+    <Compile Update="Main UC\UC_Home.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UC_Inbox.cs">
+    <Compile Update="Main UC\UC_Inbox.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UC_Sent.cs">
+    <Compile Update="Main UC\UC_Sent.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UC_Settingcs.cs">
+    <Compile Update="Main UC\UC_Setting.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UC_Nothing.cs">
+    <Compile Update="Main UC\UC_Nothing.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>

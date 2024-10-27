@@ -1,6 +1,6 @@
-﻿namespace Custom_Tabs
+﻿namespace Layout_QLTV
 {
-    partial class UC_Settingcs
+    partial class UC_Nothing
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,33 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label2 = new Label();
+            label1 = new Label();
             SuspendLayout();
             // 
-            // label2
+            // label1
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Century Gothic", 42F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = SystemColors.ActiveCaptionText;
-            label2.Location = new Point(621, 260);
-            label2.Name = "label2";
-            label2.Size = new Size(367, 114);
-            label2.TabIndex = 6;
-            label2.Text = "Setting";
+            label1.AutoSize = true;
+            label1.Font = new Font("Century Gothic", 42F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ActiveCaptionText;
+            label1.Location = new Point(644, 236);
+            label1.Name = "label1";
+            label1.Size = new Size(418, 114);
+            label1.TabIndex = 5;
+            label1.Text = "Nothing";
             // 
-            // UC_Settingcs
+            // UC_Nothing
             // 
-            AutoScaleDimensions = new SizeF(168F, 168F);
-            AutoScaleMode = AutoScaleMode.Dpi;
-            Controls.Add(label2);
-            Name = "UC_Settingcs";
-            Size = new Size(1538, 687);
+            AutoScaleDimensions = new SizeF(12F, 30F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(label1);
+            Name = "UC_Nothing";
+            Size = new Size(1706, 1110);
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label2;
+        private Label label1;
     }
 }

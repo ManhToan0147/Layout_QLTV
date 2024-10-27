@@ -40,7 +40,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Century Gothic", 42F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(657, 253);
+            label1.Location = new Point(728, 236);
             label1.Name = "label1";
             label1.Size = new Size(250, 114);
             label1.TabIndex = 4;
@@ -50,7 +50,7 @@
             // 
             guna2CirclePictureBox1.Image = (Image)resources.GetObject("guna2CirclePictureBox1.Image");
             guna2CirclePictureBox1.ImageRotate = 0F;
-            guna2CirclePictureBox1.Location = new Point(679, 381);
+            guna2CirclePictureBox1.Location = new Point(750, 379);
             guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges1;
             guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -66,7 +66,7 @@
             Controls.Add(guna2CirclePictureBox1);
             Controls.Add(label1);
             Name = "UC_Sent";
-            Size = new Size(1538, 687);
+            Size = new Size(1706, 1110);
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

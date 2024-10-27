@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Custom_Tabs
 {
-    public partial class UC_Settingcs : UserControl
+    public partial class UC_Setting : UserControl
     {
-        public UC_Settingcs()
+        public UC_Setting()
         {
             InitializeComponent();
         }

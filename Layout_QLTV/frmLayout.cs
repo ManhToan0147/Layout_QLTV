@@ -38,7 +38,7 @@ namespace Layout
         private void btnSignIn_Click(object sender, EventArgs e)
         {
             frmSignIn f = new frmSignIn();
-            f.Show();
+            f.ShowDialog();
         }
 
         private void btnHome_Click(object sender, EventArgs e)
@@ -61,7 +61,7 @@ namespace Layout
 
         private void btnSetting_Click(object sender, EventArgs e)
         {
-            UC_Settingcs uc = new UC_Settingcs();
+            UC_Setting uc = new UC_Setting();
             addUserControl(uc);
         }
 
