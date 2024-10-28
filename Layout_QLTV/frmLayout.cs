@@ -47,12 +47,6 @@ namespace Layout
             addUserControl(uc);
         }
 
-        private void btnInbox_Click(object sender, EventArgs e)
-        {
-            UC_Inbox uc = new UC_Inbox();
-            addUserControl(uc);
-        }
-
         private void btnSent_Click(object sender, EventArgs e)
         {
             UC_Sent uc = new UC_Sent();
@@ -68,6 +62,12 @@ namespace Layout
         private void btnNothing_Click(object sender, EventArgs e)
         {
             UC_Nothing uc = new UC_Nothing();
+            addUserControl(uc);
+        }
+
+        private void btnQuanLySach_Click(object sender, EventArgs e)
+        {
+            UC_QuanLySach uc = new UC_QuanLySach();
             addUserControl(uc);
         }
     }

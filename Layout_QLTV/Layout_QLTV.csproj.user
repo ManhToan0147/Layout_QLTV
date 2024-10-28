@@ -22,5 +22,8 @@
     <Compile Update="Main UC\UC_Nothing.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UC_QuanLySach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

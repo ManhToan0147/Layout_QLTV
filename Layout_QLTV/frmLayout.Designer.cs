@@ -63,9 +63,9 @@
             guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(components);
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(components);
-            guna2ResizeForm1 = new Guna.UI2.WinForms.Guna2ResizeForm(components);
             lblTenApp = new Label();
             panelSideBar = new Panel();
+            panel2 = new Panel();
             btnBaoCao = new Guna.UI2.WinForms.Guna2Button();
             guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
@@ -75,7 +75,7 @@
             btnNothing = new Guna.UI2.WinForms.Guna2Button();
             btnSetting = new Guna.UI2.WinForms.Guna2Button();
             btnSent = new Guna.UI2.WinForms.Guna2Button();
-            btnInbox = new Guna.UI2.WinForms.Guna2Button();
+            btnQuanLySach = new Guna.UI2.WinForms.Guna2Button();
             btnHome = new Guna.UI2.WinForms.Guna2Button();
             pictureBox1 = new PictureBox();
             btnSignIn = new Guna.UI2.WinForms.Guna2Button();
@@ -105,7 +105,7 @@
             panelControl.Dock = DockStyle.Top;
             panelControl.Location = new Point(0, 0);
             panelControl.Name = "panelControl";
-            panelControl.Size = new Size(2224, 53);
+            panelControl.Size = new Size(2472, 53);
             panelControl.TabIndex = 0;
             // 
             // lblTenSP
@@ -115,7 +115,7 @@
             lblTenSP.BackColor = Color.Transparent;
             lblTenSP.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTenSP.ForeColor = Color.FromArgb(9, 62, 135);
-            lblTenSP.Location = new Point(993, 11);
+            lblTenSP.Location = new Point(1241, 11);
             lblTenSP.Name = "lblTenSP";
             lblTenSP.Size = new Size(381, 32);
             lblTenSP.TabIndex = 7;
@@ -131,7 +131,7 @@
             guna2ControlBox3.HoverState.FillColor = Color.White;
             guna2ControlBox3.HoverState.IconColor = Color.Black;
             guna2ControlBox3.IconColor = Color.Black;
-            guna2ControlBox3.Location = new Point(2065, 0);
+            guna2ControlBox3.Location = new Point(2313, 0);
             guna2ControlBox3.Name = "guna2ControlBox3";
             guna2ControlBox3.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2ControlBox3.Size = new Size(79, 53);
@@ -147,7 +147,7 @@
             guna2ControlBox2.HoverState.FillColor = Color.White;
             guna2ControlBox2.HoverState.IconColor = Color.FromArgb(2, 76, 170);
             guna2ControlBox2.IconColor = Color.Black;
-            guna2ControlBox2.Location = new Point(1986, 0);
+            guna2ControlBox2.Location = new Point(2234, 0);
             guna2ControlBox2.Name = "guna2ControlBox2";
             guna2ControlBox2.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2ControlBox2.Size = new Size(79, 53);
@@ -162,7 +162,7 @@
             guna2ControlBox1.HoverState.FillColor = Color.Red;
             guna2ControlBox1.HoverState.IconColor = Color.White;
             guna2ControlBox1.IconColor = Color.Black;
-            guna2ControlBox1.Location = new Point(2144, 0);
+            guna2ControlBox1.Location = new Point(2392, 0);
             guna2ControlBox1.Name = "guna2ControlBox1";
             guna2ControlBox1.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2ControlBox1.Size = new Size(79, 53);
@@ -182,16 +182,12 @@
             guna2DragControl1.TargetControl = panelControl;
             guna2DragControl1.UseTransparentDrag = true;
             // 
-            // guna2ResizeForm1
-            // 
-            guna2ResizeForm1.TargetForm = this;
-            // 
             // lblTenApp
             // 
             lblTenApp.AutoSize = true;
             lblTenApp.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTenApp.ForeColor = Color.FromArgb(2, 76, 170);
-            lblTenApp.Location = new Point(23, 239);
+            lblTenApp.Location = new Point(24, 223);
             lblTenApp.Name = "lblTenApp";
             lblTenApp.Size = new Size(390, 74);
             lblTenApp.TabIndex = 0;
@@ -200,6 +196,7 @@
             // panelSideBar
             // 
             panelSideBar.BackColor = Color.White;
+            panelSideBar.Controls.Add(panel2);
             panelSideBar.Controls.Add(btnBaoCao);
             panelSideBar.Controls.Add(guna2Button2);
             panelSideBar.Controls.Add(guna2Button1);
@@ -209,7 +206,7 @@
             panelSideBar.Controls.Add(btnNothing);
             panelSideBar.Controls.Add(btnSetting);
             panelSideBar.Controls.Add(btnSent);
-            panelSideBar.Controls.Add(btnInbox);
+            panelSideBar.Controls.Add(btnQuanLySach);
             panelSideBar.Controls.Add(btnHome);
             panelSideBar.Controls.Add(pictureBox1);
             panelSideBar.Controls.Add(btnSignIn);
@@ -217,8 +214,16 @@
             panelSideBar.Dock = DockStyle.Left;
             panelSideBar.Location = new Point(0, 53);
             panelSideBar.Name = "panelSideBar";
-            panelSideBar.Size = new Size(437, 1410);
+            panelSideBar.Size = new Size(437, 1379);
             panelSideBar.TabIndex = 1;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.DimGray;
+            panel2.Location = new Point(47, 313);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(350, 2);
+            panel2.TabIndex = 10;
             // 
             // btnBaoCao
             // 
@@ -276,7 +281,7 @@
             guna2Button2.ImageAlign = HorizontalAlignment.Left;
             guna2Button2.ImageOffset = new Point(60, 0);
             guna2Button2.ImageSize = new Size(25, 25);
-            guna2Button2.Location = new Point(34, 1137);
+            guna2Button2.Location = new Point(34, 1106);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges11;
             guna2Button2.Size = new Size(367, 79);
@@ -309,7 +314,7 @@
             guna2Button1.ImageAlign = HorizontalAlignment.Left;
             guna2Button1.ImageOffset = new Point(60, 0);
             guna2Button1.ImageSize = new Size(25, 25);
-            guna2Button1.Location = new Point(34, 1052);
+            guna2Button1.Location = new Point(34, 1021);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges13;
             guna2Button1.Size = new Size(367, 79);
@@ -322,7 +327,7 @@
             // 
             panelLine.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             panelLine.BackColor = Color.DimGray;
-            panelLine.Location = new Point(47, 973);
+            panelLine.Location = new Point(47, 942);
             panelLine.Name = "panelLine";
             panelLine.Size = new Size(350, 2);
             panelLine.TabIndex = 7;
@@ -334,7 +339,7 @@
             lblSupport.BackColor = Color.Transparent;
             lblSupport.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblSupport.ForeColor = Color.DimGray;
-            lblSupport.Location = new Point(47, 993);
+            lblSupport.Location = new Point(47, 962);
             lblSupport.Name = "lblSupport";
             lblSupport.Size = new Size(101, 30);
             lblSupport.TabIndex = 6;
@@ -451,38 +456,38 @@
             btnSent.TextOffset = new Point(80, 0);
             btnSent.Click += btnSent_Click;
             // 
-            // btnInbox
+            // btnQuanLySach
             // 
-            btnInbox.AutoRoundedCorners = true;
-            btnInbox.BorderRadius = 38;
-            btnInbox.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnInbox.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
-            btnInbox.CheckedState.ForeColor = Color.White;
-            btnInbox.CustomizableEdges = customizableEdges20;
-            btnInbox.DisabledState.BorderColor = Color.DarkGray;
-            btnInbox.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnInbox.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnInbox.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnInbox.FillColor = Color.White;
-            btnInbox.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnInbox.ForeColor = Color.FromArgb(9, 62, 135);
-            btnInbox.HoverState.FillColor = Color.FromArgb(0, 172, 232);
-            btnInbox.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnInbox.HoverState.ForeColor = Color.White;
-            btnInbox.HoverState.Image = Layout_QLTV.Properties.Resources.book_open_cover__1_;
-            btnInbox.Image = Layout_QLTV.Properties.Resources.book_open_cover;
-            btnInbox.ImageAlign = HorizontalAlignment.Left;
-            btnInbox.ImageOffset = new Point(60, 0);
-            btnInbox.ImageSize = new Size(25, 25);
-            btnInbox.Location = new Point(34, 492);
-            btnInbox.Name = "btnInbox";
-            btnInbox.ShadowDecoration.CustomizableEdges = customizableEdges21;
-            btnInbox.Size = new Size(367, 79);
-            btnInbox.TabIndex = 5;
-            btnInbox.Text = "Quản lý sách";
-            btnInbox.TextAlign = HorizontalAlignment.Left;
-            btnInbox.TextOffset = new Point(80, 0);
-            btnInbox.Click += btnInbox_Click;
+            btnQuanLySach.AutoRoundedCorners = true;
+            btnQuanLySach.BorderRadius = 38;
+            btnQuanLySach.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            btnQuanLySach.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
+            btnQuanLySach.CheckedState.ForeColor = Color.White;
+            btnQuanLySach.CustomizableEdges = customizableEdges20;
+            btnQuanLySach.DisabledState.BorderColor = Color.DarkGray;
+            btnQuanLySach.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnQuanLySach.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnQuanLySach.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnQuanLySach.FillColor = Color.White;
+            btnQuanLySach.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnQuanLySach.ForeColor = Color.FromArgb(9, 62, 135);
+            btnQuanLySach.HoverState.FillColor = Color.FromArgb(0, 172, 232);
+            btnQuanLySach.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnQuanLySach.HoverState.ForeColor = Color.White;
+            btnQuanLySach.HoverState.Image = Layout_QLTV.Properties.Resources.book_open_cover__1_;
+            btnQuanLySach.Image = Layout_QLTV.Properties.Resources.book_open_cover;
+            btnQuanLySach.ImageAlign = HorizontalAlignment.Left;
+            btnQuanLySach.ImageOffset = new Point(60, 0);
+            btnQuanLySach.ImageSize = new Size(25, 25);
+            btnQuanLySach.Location = new Point(34, 492);
+            btnQuanLySach.Name = "btnQuanLySach";
+            btnQuanLySach.ShadowDecoration.CustomizableEdges = customizableEdges21;
+            btnQuanLySach.Size = new Size(367, 79);
+            btnQuanLySach.TabIndex = 5;
+            btnQuanLySach.Text = "Quản lý sách";
+            btnQuanLySach.TextAlign = HorizontalAlignment.Left;
+            btnQuanLySach.TextOffset = new Point(80, 0);
+            btnQuanLySach.Click += btnQuanLySach_Click;
             // 
             // btnHome
             // 
@@ -541,7 +546,7 @@
             btnSignIn.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSignIn.ForeColor = Color.White;
             btnSignIn.HoverState.FillColor = Color.FromArgb(198, 46, 46);
-            btnSignIn.Location = new Point(34, 1259);
+            btnSignIn.Location = new Point(34, 1228);
             btnSignIn.Name = "btnSignIn";
             btnSignIn.ShadowDecoration.CustomizableEdges = customizableEdges25;
             btnSignIn.Size = new Size(367, 79);
@@ -554,9 +559,9 @@
             panel1.BackColor = Color.White;
             panel1.Controls.Add(statusStrip1);
             panel1.Dock = DockStyle.Bottom;
-            panel1.Location = new Point(0, 1463);
+            panel1.Location = new Point(0, 1432);
             panel1.Name = "panel1";
-            panel1.Size = new Size(2224, 53);
+            panel1.Size = new Size(2472, 53);
             panel1.TabIndex = 2;
             // 
             // statusStrip1
@@ -567,7 +572,7 @@
             statusStrip1.Items.AddRange(new ToolStripItem[] { staThoiGian });
             statusStrip1.Location = new Point(0, 0);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(2224, 53);
+            statusStrip1.Size = new Size(2472, 53);
             statusStrip1.TabIndex = 0;
             statusStrip1.Text = "statusStrip1";
             // 
@@ -589,9 +594,9 @@
             // panelContainer
             // 
             panelContainer.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            panelContainer.Location = new Point(508, 143);
+            panelContainer.Location = new Point(437, 143);
             panelContainer.Name = "panelContainer";
-            panelContainer.Size = new Size(1713, 1320);
+            panelContainer.Size = new Size(2035, 1289);
             panelContainer.TabIndex = 3;
             // 
             // guna2CirclePictureBox1
@@ -599,7 +604,7 @@
             guna2CirclePictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             guna2CirclePictureBox1.Image = (Image)resources.GetObject("guna2CirclePictureBox1.Image");
             guna2CirclePictureBox1.ImageRotate = 0F;
-            guna2CirclePictureBox1.Location = new Point(1684, 3);
+            guna2CirclePictureBox1.Location = new Point(1932, 3);
             guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges7;
             guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -615,7 +620,7 @@
             panelUser.Dock = DockStyle.Top;
             panelUser.Location = new Point(437, 53);
             panelUser.Name = "panelUser";
-            panelUser.Size = new Size(1787, 90);
+            panelUser.Size = new Size(2035, 90);
             panelUser.TabIndex = 4;
             // 
             // frmLayout
@@ -623,7 +628,7 @@
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(2224, 1516);
+            ClientSize = new Size(2472, 1485);
             Controls.Add(panelUser);
             Controls.Add(panelContainer);
             Controls.Add(panelSideBar);
@@ -657,7 +662,6 @@
         private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
-        private Guna.UI2.WinForms.Guna2ResizeForm guna2ResizeForm1;
         private Panel panelSideBar;
         private Label lblTenApp;
         private Panel panel1;
@@ -673,7 +677,7 @@
         private Guna.UI2.WinForms.Guna2Button btnNothing;
         private Guna.UI2.WinForms.Guna2Button btnSetting;
         private Guna.UI2.WinForms.Guna2Button btnSent;
-        private Guna.UI2.WinForms.Guna2Button btnInbox;
+        private Guna.UI2.WinForms.Guna2Button btnQuanLySach;
         private Label lblMain;
         private Panel panelLine;
         private Label lblSupport;
@@ -681,5 +685,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Label lblTenSP;
         private Guna.UI2.WinForms.Guna2Button btnBaoCao;
+        private Panel panel2;
     }
 }
