@@ -35,6 +35,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -50,11 +51,9 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLayout));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLayout));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panelControl = new Panel();
             lblTenSP = new Label();
             guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -84,15 +83,11 @@
             staThoiGian = new ToolStripStatusLabel();
             timer1 = new System.Windows.Forms.Timer(components);
             panelContainer = new Panel();
-            guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            panelUser = new Panel();
             panelControl.SuspendLayout();
             panelSideBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             statusStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).BeginInit();
-            panelUser.SuspendLayout();
             SuspendLayout();
             // 
             // panelControl
@@ -232,7 +227,7 @@
             btnBaoCao.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             btnBaoCao.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
             btnBaoCao.CheckedState.ForeColor = Color.White;
-            btnBaoCao.CustomizableEdges = customizableEdges8;
+            btnBaoCao.CustomizableEdges = customizableEdges7;
             btnBaoCao.DisabledState.BorderColor = Color.DarkGray;
             btnBaoCao.DisabledState.CustomBorderColor = Color.DarkGray;
             btnBaoCao.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -250,7 +245,7 @@
             btnBaoCao.ImageSize = new Size(25, 25);
             btnBaoCao.Location = new Point(34, 832);
             btnBaoCao.Name = "btnBaoCao";
-            btnBaoCao.ShadowDecoration.CustomizableEdges = customizableEdges9;
+            btnBaoCao.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btnBaoCao.Size = new Size(367, 79);
             btnBaoCao.TabIndex = 9;
             btnBaoCao.Text = "Báo cáo";
@@ -265,7 +260,7 @@
             guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             guna2Button2.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
             guna2Button2.CheckedState.ForeColor = Color.White;
-            guna2Button2.CustomizableEdges = customizableEdges10;
+            guna2Button2.CustomizableEdges = customizableEdges9;
             guna2Button2.DisabledState.BorderColor = Color.DarkGray;
             guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -283,7 +278,7 @@
             guna2Button2.ImageSize = new Size(25, 25);
             guna2Button2.Location = new Point(34, 1106);
             guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges11;
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2Button2.Size = new Size(367, 79);
             guna2Button2.TabIndex = 8;
             guna2Button2.Text = "Cài đặt";
@@ -298,7 +293,7 @@
             guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             guna2Button1.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
             guna2Button1.CheckedState.ForeColor = Color.White;
-            guna2Button1.CustomizableEdges = customizableEdges12;
+            guna2Button1.CustomizableEdges = customizableEdges11;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -316,7 +311,7 @@
             guna2Button1.ImageSize = new Size(25, 25);
             guna2Button1.Location = new Point(34, 1021);
             guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges13;
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2Button1.Size = new Size(367, 79);
             guna2Button1.TabIndex = 8;
             guna2Button1.Text = "Hướng dẫn";
@@ -364,7 +359,7 @@
             btnNothing.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             btnNothing.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
             btnNothing.CheckedState.ForeColor = Color.White;
-            btnNothing.CustomizableEdges = customizableEdges14;
+            btnNothing.CustomizableEdges = customizableEdges13;
             btnNothing.DisabledState.BorderColor = Color.DarkGray;
             btnNothing.DisabledState.CustomBorderColor = Color.DarkGray;
             btnNothing.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -382,7 +377,7 @@
             btnNothing.ImageSize = new Size(25, 25);
             btnNothing.Location = new Point(34, 747);
             btnNothing.Name = "btnNothing";
-            btnNothing.ShadowDecoration.CustomizableEdges = customizableEdges15;
+            btnNothing.ShadowDecoration.CustomizableEdges = customizableEdges14;
             btnNothing.Size = new Size(367, 79);
             btnNothing.TabIndex = 5;
             btnNothing.Text = "Quản lý mượn trả";
@@ -397,7 +392,7 @@
             btnSetting.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             btnSetting.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
             btnSetting.CheckedState.ForeColor = Color.White;
-            btnSetting.CustomizableEdges = customizableEdges16;
+            btnSetting.CustomizableEdges = customizableEdges15;
             btnSetting.DisabledState.BorderColor = Color.DarkGray;
             btnSetting.DisabledState.CustomBorderColor = Color.DarkGray;
             btnSetting.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -415,7 +410,7 @@
             btnSetting.ImageSize = new Size(25, 25);
             btnSetting.Location = new Point(34, 662);
             btnSetting.Name = "btnSetting";
-            btnSetting.ShadowDecoration.CustomizableEdges = customizableEdges17;
+            btnSetting.ShadowDecoration.CustomizableEdges = customizableEdges16;
             btnSetting.Size = new Size(367, 79);
             btnSetting.TabIndex = 5;
             btnSetting.Text = "Quản lý độc giả";
@@ -430,7 +425,7 @@
             btnSent.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             btnSent.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
             btnSent.CheckedState.ForeColor = Color.White;
-            btnSent.CustomizableEdges = customizableEdges18;
+            btnSent.CustomizableEdges = customizableEdges17;
             btnSent.DisabledState.BorderColor = Color.DarkGray;
             btnSent.DisabledState.CustomBorderColor = Color.DarkGray;
             btnSent.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -448,7 +443,7 @@
             btnSent.ImageSize = new Size(25, 25);
             btnSent.Location = new Point(34, 577);
             btnSent.Name = "btnSent";
-            btnSent.ShadowDecoration.CustomizableEdges = customizableEdges19;
+            btnSent.ShadowDecoration.CustomizableEdges = customizableEdges18;
             btnSent.Size = new Size(367, 79);
             btnSent.TabIndex = 5;
             btnSent.Text = "Quản lý tác giả";
@@ -463,7 +458,7 @@
             btnQuanLySach.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             btnQuanLySach.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
             btnQuanLySach.CheckedState.ForeColor = Color.White;
-            btnQuanLySach.CustomizableEdges = customizableEdges20;
+            btnQuanLySach.CustomizableEdges = customizableEdges19;
             btnQuanLySach.DisabledState.BorderColor = Color.DarkGray;
             btnQuanLySach.DisabledState.CustomBorderColor = Color.DarkGray;
             btnQuanLySach.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -481,7 +476,7 @@
             btnQuanLySach.ImageSize = new Size(25, 25);
             btnQuanLySach.Location = new Point(34, 492);
             btnQuanLySach.Name = "btnQuanLySach";
-            btnQuanLySach.ShadowDecoration.CustomizableEdges = customizableEdges21;
+            btnQuanLySach.ShadowDecoration.CustomizableEdges = customizableEdges20;
             btnQuanLySach.Size = new Size(367, 79);
             btnQuanLySach.TabIndex = 5;
             btnQuanLySach.Text = "Quản lý sách";
@@ -496,7 +491,7 @@
             btnHome.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             btnHome.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
             btnHome.CheckedState.ForeColor = Color.White;
-            btnHome.CustomizableEdges = customizableEdges22;
+            btnHome.CustomizableEdges = customizableEdges21;
             btnHome.DisabledState.BorderColor = Color.DarkGray;
             btnHome.DisabledState.CustomBorderColor = Color.DarkGray;
             btnHome.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -514,7 +509,7 @@
             btnHome.ImageSize = new Size(25, 25);
             btnHome.Location = new Point(34, 407);
             btnHome.Name = "btnHome";
-            btnHome.ShadowDecoration.CustomizableEdges = customizableEdges23;
+            btnHome.ShadowDecoration.CustomizableEdges = customizableEdges22;
             btnHome.Size = new Size(367, 79);
             btnHome.TabIndex = 5;
             btnHome.Text = "Trang chủ";
@@ -537,7 +532,7 @@
             btnSignIn.Anchor = AnchorStyles.Bottom;
             btnSignIn.AutoRoundedCorners = true;
             btnSignIn.BorderRadius = 38;
-            btnSignIn.CustomizableEdges = customizableEdges24;
+            btnSignIn.CustomizableEdges = customizableEdges23;
             btnSignIn.DisabledState.BorderColor = Color.DarkGray;
             btnSignIn.DisabledState.CustomBorderColor = Color.DarkGray;
             btnSignIn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -548,7 +543,7 @@
             btnSignIn.HoverState.FillColor = Color.FromArgb(198, 46, 46);
             btnSignIn.Location = new Point(34, 1228);
             btnSignIn.Name = "btnSignIn";
-            btnSignIn.ShadowDecoration.CustomizableEdges = customizableEdges25;
+            btnSignIn.ShadowDecoration.CustomizableEdges = customizableEdges24;
             btnSignIn.Size = new Size(367, 79);
             btnSignIn.TabIndex = 3;
             btnSignIn.Text = "Sign In";
@@ -594,34 +589,10 @@
             // panelContainer
             // 
             panelContainer.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            panelContainer.Location = new Point(437, 143);
+            panelContainer.Location = new Point(437, 53);
             panelContainer.Name = "panelContainer";
-            panelContainer.Size = new Size(2035, 1289);
+            panelContainer.Size = new Size(2035, 1379);
             panelContainer.TabIndex = 3;
-            // 
-            // guna2CirclePictureBox1
-            // 
-            guna2CirclePictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            guna2CirclePictureBox1.Image = (Image)resources.GetObject("guna2CirclePictureBox1.Image");
-            guna2CirclePictureBox1.ImageRotate = 0F;
-            guna2CirclePictureBox1.Location = new Point(1932, 3);
-            guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges7;
-            guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            guna2CirclePictureBox1.Size = new Size(81, 81);
-            guna2CirclePictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            guna2CirclePictureBox1.TabIndex = 0;
-            guna2CirclePictureBox1.TabStop = false;
-            // 
-            // panelUser
-            // 
-            panelUser.BackColor = Color.FromArgb(2, 76, 170);
-            panelUser.Controls.Add(guna2CirclePictureBox1);
-            panelUser.Dock = DockStyle.Top;
-            panelUser.Location = new Point(437, 53);
-            panelUser.Name = "panelUser";
-            panelUser.Size = new Size(2035, 90);
-            panelUser.TabIndex = 4;
             // 
             // frmLayout
             // 
@@ -629,7 +600,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(2472, 1485);
-            Controls.Add(panelUser);
             Controls.Add(panelContainer);
             Controls.Add(panelSideBar);
             Controls.Add(panelControl);
@@ -639,6 +609,7 @@
             Name = "frmLayout";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            Load += frmLayout_Load;
             panelControl.ResumeLayout(false);
             panelControl.PerformLayout();
             panelSideBar.ResumeLayout(false);
@@ -648,8 +619,6 @@
             panel1.PerformLayout();
             statusStrip1.ResumeLayout(false);
             statusStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();
-            panelUser.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -671,8 +640,6 @@
         private Guna.UI2.WinForms.Guna2Button btnSignIn;
         private PictureBox pictureBox1;
         private Panel panelContainer;
-        private Panel panelUser;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Guna.UI2.WinForms.Guna2Button btnHome;
         private Guna.UI2.WinForms.Guna2Button btnNothing;
         private Guna.UI2.WinForms.Guna2Button btnSetting;

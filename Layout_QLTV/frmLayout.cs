@@ -67,7 +67,14 @@ namespace Layout
 
         private void btnQuanLySach_Click(object sender, EventArgs e)
         {
-            UC_QuanLySach uc = new UC_QuanLySach();
+            UC_QuanLySach_Ribbon uc = new UC_QuanLySach_Ribbon();
+            addUserControl(uc);
+        }
+
+        private void frmLayout_Load(object sender, EventArgs e)
+        {
+            btnHome.Checked = true;
+            UC_Home uc = new UC_Home();
             addUserControl(uc);
         }
     }

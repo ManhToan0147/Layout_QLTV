@@ -36,7 +36,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Century Gothic", 42F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(705, 279);
+            label1.Location = new Point(851, 279);
             label1.Name = "label1";
             label1.Size = new Size(333, 114);
             label1.TabIndex = 2;
@@ -50,7 +50,7 @@
             Font = new Font("Century", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(4, 3, 4, 3);
             Name = "UC_Home";
-            Size = new Size(1706, 1110);
+            Size = new Size(2035, 1379);
             ResumeLayout(false);
             PerformLayout();
         }

@@ -27,10 +27,13 @@ D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.UC_No
 D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.sourcelink.json
 D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Properties.Resources.resources
 D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Custom_Tabs.UC_Setting.resources
-D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.UC_QuanLySach.resources
 D:\My Project\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
 D:\My Project\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
 D:\My Project\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
 D:\My Project\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
 D:\My Project\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\My Project\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.ChiTietSach.resources
+D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.UC_ChiTietSach.resources
+D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.UC_QuanLySach_Ribbon.resources
+D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Child_UC.UC_DauSach.resources
