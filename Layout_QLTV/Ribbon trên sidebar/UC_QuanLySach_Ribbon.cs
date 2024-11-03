@@ -40,5 +40,11 @@ namespace Layout_QLTV
             UC_DauSach uc = new UC_DauSach();
             addUserControl(uc);
         }
+
+        private void btnCuonSach_Click(object sender, EventArgs e)
+        {
+            UC_CuonSach uc = new UC_CuonSach();
+            addUserControl(uc);
+        }
     }
 }

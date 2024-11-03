@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\My Project\\Layout_QLTV\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\child uc\\uc_cuonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\child uc\\uc_cuonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\child uc\\uc_dausach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\child uc\\uc_dausach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|D:\\My Project\\Layout_QLTV\\layout_qltv\\child uc\\uc_dausach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\child uc\\uc_dausach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\child uc\\uc_dausach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\chitietsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\chitietsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\child uc\\uc_cuonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\child uc\\uc_cuonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|D:\\My Project\\Layout_QLTV\\layout_qltv\\frmlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\frmlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\child uc\\uc_chitietsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\child uc\\uc_chitietsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|D:\\My Project\\Layout_QLTV\\layout_qltv\\chitietsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\chitietsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|d:\\my project\\layout_qltv\\layout_qltv\\child uc\\uc_cuonsach.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1534385F-E326-474C-AA2C-C5228CC9DDEA}|Layout_QLTV\\Layout_QLTV.csproj|solutionrelative:layout_qltv\\child uc\\uc_cuonsach.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UC_DauSach.cs",
-              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_DauSach.cs",
-              "RelativeDocumentMoniker": "Layout_QLTV\\Child UC\\UC_DauSach.cs",
-              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_DauSach.cs",
-              "RelativeToolTip": "Layout_QLTV\\Child UC\\UC_DauSach.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAhwHAAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UC_CuonSach.Designer.cs",
+              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_CuonSach.Designer.cs",
+              "RelativeDocumentMoniker": "Layout_QLTV\\Child UC\\UC_CuonSach.Designer.cs",
+              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_CuonSach.Designer.cs*",
+              "RelativeToolTip": "Layout_QLTV\\Child UC\\UC_CuonSach.Designer.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T18:16:44.038Z",
+              "WhenOpened": "2024-11-03T03:07:23.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UC_ChiTietSach.cs",
-              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_ChiTietSach.cs",
-              "RelativeDocumentMoniker": "Layout_QLTV\\Child UC\\UC_ChiTietSach.cs",
-              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_ChiTietSach.cs",
-              "RelativeToolTip": "Layout_QLTV\\Child UC\\UC_ChiTietSach.cs",
-              "ViewState": "AgIAAFICAAAAAAAAAAAhwO8BAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:50:05.018Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ChiTietSach.cs",
-              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\ChiTietSach.cs",
-              "RelativeDocumentMoniker": "Layout_QLTV\\ChiTietSach.cs",
-              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\ChiTietSach.cs",
-              "RelativeToolTip": "Layout_QLTV\\ChiTietSach.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAtwB8AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:45:42.706Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "UC_DauSach.cs [Design]",
               "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_DauSach.cs",
               "RelativeDocumentMoniker": "Layout_QLTV\\Child UC\\UC_DauSach.cs",
               "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_DauSach.cs [Design]",
               "RelativeToolTip": "Layout_QLTV\\Child UC\\UC_DauSach.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:27:18.127Z"
+              "WhenOpened": "2024-11-03T02:59:55.898Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ChiTietSach.cs [Design]",
-              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\ChiTietSach.cs",
-              "RelativeDocumentMoniker": "Layout_QLTV\\ChiTietSach.cs",
-              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\ChiTietSach.cs [Design]",
-              "RelativeToolTip": "Layout_QLTV\\ChiTietSach.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "UC_DauSach.cs",
+              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_DauSach.cs",
+              "RelativeDocumentMoniker": "Layout_QLTV\\Child UC\\UC_DauSach.cs",
+              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_DauSach.cs",
+              "RelativeToolTip": "Layout_QLTV\\Child UC\\UC_DauSach.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAAANQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:09:08.676Z"
+              "WhenOpened": "2024-11-02T16:44:50.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UC_CuonSach.cs [Design]",
+              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_CuonSach.cs",
+              "RelativeDocumentMoniker": "Layout_QLTV\\Child UC\\UC_CuonSach.cs",
+              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_CuonSach.cs [Design]*",
+              "RelativeToolTip": "Layout_QLTV\\Child UC\\UC_CuonSach.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:19:07.524Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frmLayout.cs [Design]",
-              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\frmLayout.cs",
-              "RelativeDocumentMoniker": "Layout_QLTV\\frmLayout.cs",
-              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\frmLayout.cs [Design]",
-              "RelativeToolTip": "Layout_QLTV\\frmLayout.cs [Design]",
+              "Title": "UC_CuonSach.cs",
+              "DocumentMoniker": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_CuonSach.cs",
+              "RelativeDocumentMoniker": "Layout_QLTV\\Child UC\\UC_CuonSach.cs",
+              "ToolTip": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Child UC\\UC_CuonSach.cs*",
+              "RelativeToolTip": "Layout_QLTV\\Child UC\\UC_CuonSach.cs*",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAIwNEAAACIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:37:24.266Z"
+              "WhenOpened": "2024-11-02T13:13:35.89Z",
+              "EditorCaption": ""
             }
           ]
         }

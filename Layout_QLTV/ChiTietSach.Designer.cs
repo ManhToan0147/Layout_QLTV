@@ -134,14 +134,15 @@
             txtTenTacGia.Font = new Font("Segoe UI", 9F);
             txtTenTacGia.ForeColor = Color.Black;
             txtTenTacGia.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtTenTacGia.Location = new Point(1018, 62);
+            txtTenTacGia.Location = new Point(1006, 64);
             txtTenTacGia.Margin = new Padding(5, 6, 5, 6);
+            txtTenTacGia.Multiline = true;
             txtTenTacGia.Name = "txtTenTacGia";
             txtTenTacGia.PasswordChar = '\0';
             txtTenTacGia.PlaceholderText = "";
             txtTenTacGia.SelectedText = "";
             txtTenTacGia.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            txtTenTacGia.Size = new Size(437, 60);
+            txtTenTacGia.Size = new Size(437, 90);
             txtTenTacGia.TabIndex = 12;
             // 
             // label11
@@ -149,7 +150,7 @@
             label11.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label11.AutoSize = true;
             label11.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label11.Location = new Point(906, 77);
+            label11.Location = new Point(896, 96);
             label11.Name = "label11";
             label11.Size = new Size(80, 30);
             label11.TabIndex = 13;
@@ -168,7 +169,7 @@
             txtKhoSach.Font = new Font("Segoe UI", 9F);
             txtKhoSach.ForeColor = Color.Black;
             txtKhoSach.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtKhoSach.Location = new Point(1018, 352);
+            txtKhoSach.Location = new Point(1006, 384);
             txtKhoSach.Margin = new Padding(5, 6, 5, 6);
             txtKhoSach.Name = "txtKhoSach";
             txtKhoSach.PasswordChar = '\0';
@@ -183,7 +184,7 @@
             label10.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label10.Location = new Point(906, 364);
+            label10.Location = new Point(894, 396);
             label10.Name = "label10";
             label10.Size = new Size(102, 30);
             label10.TabIndex = 21;
@@ -202,7 +203,7 @@
             txtNXB.Font = new Font("Segoe UI", 9F);
             txtNXB.ForeColor = Color.Black;
             txtNXB.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtNXB.Location = new Point(1018, 280);
+            txtNXB.Location = new Point(1006, 312);
             txtNXB.Margin = new Padding(5, 6, 5, 6);
             txtNXB.Name = "txtNXB";
             txtNXB.PasswordChar = '\0';
@@ -217,7 +218,7 @@
             label9.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label9.Location = new Point(906, 292);
+            label9.Location = new Point(894, 324);
             label9.Name = "label9";
             label9.Size = new Size(57, 30);
             label9.TabIndex = 19;
@@ -237,7 +238,7 @@
             txtChuDe.Font = new Font("Segoe UI", 9F);
             txtChuDe.ForeColor = Color.Black;
             txtChuDe.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtChuDe.Location = new Point(1018, 206);
+            txtChuDe.Location = new Point(1006, 238);
             txtChuDe.Margin = new Padding(5, 6, 5, 6);
             txtChuDe.Multiline = true;
             txtChuDe.Name = "txtChuDe";
@@ -253,7 +254,7 @@
             label8.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label8.Location = new Point(906, 218);
+            label8.Location = new Point(894, 250);
             label8.Name = "label8";
             label8.Size = new Size(82, 30);
             label8.TabIndex = 17;
@@ -272,7 +273,7 @@
             txtLoaiSach.Font = new Font("Segoe UI", 9F);
             txtLoaiSach.ForeColor = Color.Black;
             txtLoaiSach.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtLoaiSach.Location = new Point(1018, 134);
+            txtLoaiSach.Location = new Point(1006, 166);
             txtLoaiSach.Margin = new Padding(5, 6, 5, 6);
             txtLoaiSach.Name = "txtLoaiSach";
             txtLoaiSach.PasswordChar = '\0';
@@ -287,7 +288,7 @@
             label7.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label7.Location = new Point(906, 146);
+            label7.Location = new Point(894, 178);
             label7.Name = "label7";
             label7.Size = new Size(103, 30);
             label7.TabIndex = 15;

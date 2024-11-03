@@ -58,6 +58,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             btnTaoMoi = new Guna.UI2.WinForms.Guna2Button();
             dgvDSDauSach = new DataGridView();
             MaDauSach = new DataGridViewTextBoxColumn();
@@ -93,6 +95,7 @@
             btnThem = new Guna.UI2.WinForms.Guna2Button();
             btnSua = new Guna.UI2.WinForms.Guna2Button();
             btnXoa = new Guna.UI2.WinForms.Guna2Button();
+            txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)dgvDSDauSach).BeginInit();
             panelContainer.SuspendLayout();
             grbTTDS.SuspendLayout();
@@ -100,8 +103,10 @@
             // 
             // btnTaoMoi
             // 
+            btnTaoMoi.Anchor = AnchorStyles.Top;
             btnTaoMoi.BorderColor = Color.Transparent;
             btnTaoMoi.BorderThickness = 2;
+            btnTaoMoi.CheckedState.FillColor = Color.White;
             btnTaoMoi.CustomizableEdges = customizableEdges1;
             btnTaoMoi.DisabledState.BorderColor = Color.DarkGray;
             btnTaoMoi.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -169,7 +174,7 @@
             dgvDSDauSach.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             dgvDSDauSach.RowHeadersWidth = 72;
             dgvDSDauSach.RowTemplate.Height = 50;
-            dgvDSDauSach.Size = new Size(1927, 640);
+            dgvDSDauSach.Size = new Size(1927, 575);
             dgvDSDauSach.TabIndex = 0;
             dgvDSDauSach.SelectionChanged += dgvDSDauSach_SelectionChanged;
             // 
@@ -248,9 +253,9 @@
             // panelContainer
             // 
             panelContainer.Controls.Add(dgvDSDauSach);
-            panelContainer.Location = new Point(54, 497);
+            panelContainer.Location = new Point(54, 556);
             panelContainer.Name = "panelContainer";
-            panelContainer.Size = new Size(1927, 640);
+            panelContainer.Size = new Size(1927, 575);
             panelContainer.TabIndex = 8;
             // 
             // lblQuanLySach
@@ -285,7 +290,7 @@
             grbTTDS.Controls.Add(txtMaDauSach);
             grbTTDS.Controls.Add(label1);
             grbTTDS.ForeColor = Color.Black;
-            grbTTDS.Location = new Point(54, 121);
+            grbTTDS.Location = new Point(54, 204);
             grbTTDS.Name = "grbTTDS";
             grbTTDS.Size = new Size(1927, 330);
             grbTTDS.TabIndex = 11;
@@ -322,7 +327,7 @@
             cboMaChuDe.IntegralHeight = false;
             cboMaChuDe.ItemHeight = 47;
             cboMaChuDe.Location = new Point(1330, 118);
-            cboMaChuDe.MaxDropDownItems = 15;
+            cboMaChuDe.MaxDropDownItems = 10;
             cboMaChuDe.Name = "cboMaChuDe";
             cboMaChuDe.ShadowDecoration.CustomizableEdges = customizableEdges6;
             cboMaChuDe.Size = new Size(372, 53);
@@ -564,8 +569,10 @@
             // 
             // btnThem
             // 
+            btnThem.Anchor = AnchorStyles.Top;
             btnThem.BorderColor = Color.Transparent;
             btnThem.BorderThickness = 2;
+            btnThem.CheckedState.FillColor = Color.White;
             btnThem.CustomizableEdges = customizableEdges21;
             btnThem.DisabledState.BorderColor = Color.DarkGray;
             btnThem.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -589,6 +596,7 @@
             // 
             // btnSua
             // 
+            btnSua.Anchor = AnchorStyles.Top;
             btnSua.BorderColor = Color.Transparent;
             btnSua.BorderThickness = 2;
             btnSua.CustomizableEdges = customizableEdges23;
@@ -604,15 +612,17 @@
             btnSua.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSua.HoverState.ForeColor = Color.FromArgb(0, 172, 232);
             btnSua.ImageSize = new Size(0, 0);
-            btnSua.Location = new Point(1039, 1169);
+            btnSua.Location = new Point(1355, 1169);
             btnSua.Name = "btnSua";
             btnSua.ShadowDecoration.CustomizableEdges = customizableEdges24;
             btnSua.Size = new Size(283, 79);
             btnSua.TabIndex = 10;
             btnSua.Text = "Sửa";
+            btnSua.Click += btnSua_Click;
             // 
             // btnXoa
             // 
+            btnXoa.Anchor = AnchorStyles.Top;
             btnXoa.BorderColor = Color.Transparent;
             btnXoa.BorderThickness = 2;
             btnXoa.CustomizableEdges = customizableEdges25;
@@ -628,17 +638,50 @@
             btnXoa.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnXoa.HoverState.ForeColor = Color.FromArgb(0, 172, 232);
             btnXoa.ImageSize = new Size(0, 0);
-            btnXoa.Location = new Point(1361, 1169);
+            btnXoa.Location = new Point(1035, 1169);
             btnXoa.Name = "btnXoa";
             btnXoa.ShadowDecoration.CustomizableEdges = customizableEdges26;
             btnXoa.Size = new Size(283, 79);
             btnXoa.TabIndex = 10;
             btnXoa.Text = "Xóa";
+            btnXoa.Click += btnXoa_Click;
+            // 
+            // txtSearch
+            // 
+            txtSearch.AutoRoundedCorners = true;
+            txtSearch.BorderRadius = 36;
+            txtSearch.CustomizableEdges = customizableEdges27;
+            txtSearch.DefaultText = "";
+            txtSearch.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtSearch.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtSearch.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtSearch.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtSearch.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtSearch.FocusedState.ForeColor = Color.Black;
+            txtSearch.Font = new Font("Segoe UI", 9F);
+            txtSearch.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtSearch.IconLeft = Properties.Resources.search;
+            txtSearch.IconLeftOffset = new Point(20, 0);
+            txtSearch.IconLeftSize = new Size(25, 25);
+            txtSearch.IconRightSize = new Size(0, 0);
+            txtSearch.Location = new Point(328, 120);
+            txtSearch.Margin = new Padding(5, 6, 5, 6);
+            txtSearch.Name = "txtSearch";
+            txtSearch.PasswordChar = '\0';
+            txtSearch.PlaceholderForeColor = Color.DimGray;
+            txtSearch.PlaceholderText = "Nhập để tìm kiếm đầu sách";
+            txtSearch.SelectedText = "";
+            txtSearch.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            txtSearch.Size = new Size(1379, 75);
+            txtSearch.TabIndex = 12;
+            txtSearch.TextOffset = new Point(10, 0);
+            txtSearch.TextChanged += txtSearch_TextChanged;
             // 
             // UC_DauSach
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(txtSearch);
             Controls.Add(grbTTDS);
             Controls.Add(btnXoa);
             Controls.Add(btnSua);
@@ -695,5 +738,6 @@
         private Guna.UI2.WinForms.Guna2ComboBox cboMaNXB;
         private Guna.UI2.WinForms.Guna2ComboBox cboMaChuDe;
         private Guna.UI2.WinForms.Guna2ComboBox cboMaLoaiSach;
+        private Guna.UI2.WinForms.Guna2TextBox txtSearch;
     }
 }

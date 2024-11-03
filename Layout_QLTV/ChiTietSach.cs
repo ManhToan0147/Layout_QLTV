@@ -2,39 +2,69 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Layout_QLTV
 {
     public partial class ChiTietSach : Form
     {
-        public ChiTietSach()
+        string strCon = @"Data Source=DESKTOP-HPGDAGQ\SQLEXPRESS;Initial Catalog=QuanLyThuVien;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+        private string maDauSach;
+        public ChiTietSach(string maDauSach)
         {
             InitializeComponent();
+            this.maDauSach = maDauSach;
         }
 
         private void ChiTietSach_Load(object sender, EventArgs e)
         {
-
+            LoadBookDetails();
         }
 
-        public void LoadBookDetails(DataGridViewRow row)
+        public void LoadBookDetails()
         {
-            txtMaDauSach.Text = row.Cells["MaDauSach"].Value.ToString();
-            txtTenDauSach.Text = row.Cells["TenDauSach"].Value.ToString();
-            txtTenTacGia.Text = row.Cells["TenTacGia"].Value.ToString();
-            txtNamXuatBan.Text = row.Cells["NamXuatBan"].Value.ToString();
-            txtGiaBia.Text = row.Cells["GiaBia"].Value.ToString();
-            txtSoTrang.Text = row.Cells["SoTrang"].Value.ToString();
-            txtSoLuong.Text = row.Cells["SoLuong"].Value.ToString();
-            txtLoaiSach.Text = row.Cells["TenLoaiSach"].Value.ToString();
-            txtChuDe.Text = row.Cells["TenChuDe"].Value.ToString();
-            txtNXB.Text = row.Cells["TenNXB"].Value.ToString();
-            txtKhoSach.Text = row.Cells["TenKho"].Value.ToString();
+            DataTable bookDetails = GetBookDetails(maDauSach);
+            if (bookDetails.Rows.Count > 0)
+            {
+                DataRow row = bookDetails.Rows[0];
+
+                txtMaDauSach.Text = row["MaDauSach"].ToString();
+                txtTenDauSach.Text = row["TenDauSach"].ToString();
+                txtTenTacGia.Text = row["TenTacGia"].ToString();
+                txtNamXuatBan.Text = row["NamXuatBan"].ToString();
+                txtGiaBia.Text = row["GiaBia"].ToString();
+                txtSoTrang.Text = row["SoTrang"].ToString();
+                txtSoLuong.Text = row["SoLuong"].ToString();
+                txtLoaiSach.Text = row["TenLoaiSach"].ToString();
+                txtChuDe.Text = row["TenChuDe"].ToString();
+                txtNXB.Text = row["TenNXB"].ToString();
+                txtKhoSach.Text = row["TenKho"].ToString();
+            }
+            else
+            {
+                MessageBox.Show("Không tìm thấy thông tin chi tiết cho đầu sách này.");
+            }
+        }
+        private DataTable GetBookDetails(string maDauSach)
+        {
+            DataTable dt = new DataTable();
+            string sql = "SELECT * FROM ChiTiet_DauSach WHERE MaDauSach = @MaDauSach";
+
+            using (SqlConnection con = new SqlConnection(strCon))
+            {
+                using (SqlDataAdapter adapter = new SqlDataAdapter(sql, con))
+                {
+                    adapter.SelectCommand.Parameters.AddWithValue("@MaDauSach", maDauSach);
+                    adapter.Fill(dt);
+                }
+            }
+            return dt;
         }
     }
 }

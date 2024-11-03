@@ -447,6 +447,7 @@ namespace Layout_QLTV
             // 
             // btnXemChiTiet
             // 
+            btnXemChiTiet.Anchor = AnchorStyles.Top;
             btnXemChiTiet.BorderColor = Color.Transparent;
             btnXemChiTiet.BorderThickness = 2;
             btnXemChiTiet.CustomizableEdges = customizableEdges13;
@@ -586,10 +587,10 @@ namespace Layout_QLTV
             if (dgvChiTietDauSach.SelectedRows.Count > 0) // Kiểm tra xem có hàng nào được chọn không
             {
                 DataGridViewRow selectedRow = dgvChiTietDauSach.SelectedRows[0]; // Lấy hàng được chọn
+                string maDauSach = selectedRow.Cells["MaDauSach"].Value.ToString(); // Lấy mã đầu sách từ cột "MaDauSach"
 
-                // Khởi tạo form chi tiết và truyền dữ liệu
-                ChiTietSach cts = new ChiTietSach();
-                cts.LoadBookDetails(selectedRow); // Gọi phương thức để hiển thị chi tiết
+                // Khởi tạo form chi tiết và truyền mã đầu sách qua constructor
+                ChiTietSach cts = new ChiTietSach(maDauSach);
 
                 cts.ShowDialog(); // Hiển thị form chi tiết dưới dạng dialog
             }
