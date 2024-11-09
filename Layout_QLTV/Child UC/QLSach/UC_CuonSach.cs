@@ -194,6 +194,7 @@ namespace Layout_QLTV.Child_UC
 
                     using (SqlCommand cmd = new SqlCommand("ThemCuonSach", con))
                     {
+                        cmd.Parameters.Clear();
                         cmd.CommandType = CommandType.StoredProcedure;
 
                         cmd.Parameters.AddWithValue("@MaSach", maSach);
