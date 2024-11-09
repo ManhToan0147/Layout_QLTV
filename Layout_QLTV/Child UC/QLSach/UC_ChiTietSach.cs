@@ -17,7 +17,6 @@ namespace Layout_QLTV
         string strCon = @"Data Source=DESKTOP-HPGDAGQ\SQLEXPRESS;Initial Catalog=QuanLyThuVien;Integrated Security=True";
         SqlConnection con;
         SqlDataAdapter adapter;
-        SqlCommand cmd;
         DataTable dt;
         DataView dv;
 

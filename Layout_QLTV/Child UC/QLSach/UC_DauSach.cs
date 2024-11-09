@@ -162,21 +162,29 @@ namespace Layout_QLTV.Child_UC
         {
             if (dgvDSDauSach.SelectedRows.Count > 0)
             {
-                DialogResult rs = MessageBox.Show("Bạn có chắc chắn muốn xóa bản ghi hiện thời?", "Xác nhận yêu cầu",
-                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult rs = MessageBox.Show("Bạn có chắc chắn muốn xóa các bản ghi đã chọn và các bản ghi liên quan?", "Xác nhận",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
                 if (rs == DialogResult.Yes)
                 {
-                    int i = dgvDSDauSach.CurrentRow.Index;
-                    string maDauSach = dgvDSDauSach.Rows[i].Cells["MaDauSach"].Value.ToString();
-                    string sql = $"Delete from DauSach where MaDauSach = '{maDauSach}'";
-                    DoSQL(sql);
-                    MessageBox.Show($"Đã xoá bản ghi", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    foreach (DataGridViewRow row in dgvDSDauSach.SelectedRows)
+                    {
+                        string maDauSach = row.Cells["MaDauSach"].Value.ToString();
+
+                        string sql1 = $"DELETE FROM CuonSach WHERE MaDauSach = '{maDauSach}'";
+                        DoSQL(sql1);
+
+                        string sql2 = $"DELETE FROM DauSach WHERE MaDauSach = '{maDauSach}'";
+                        DoSQL(sql2);
+                    }
+
+                    MessageBox.Show("Đã xóa các bản ghi đã chọn.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     ShowDauSach();
                 }
             }
             else
             {
-                MessageBox.Show("Chua chon ban ghi");
+                MessageBox.Show("Chưa chọn bản ghi nào để xóa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

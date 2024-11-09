@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -38,14 +38,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             pannelRibbon = new Guna.UI2.WinForms.Guna2Panel();
-            guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            btnDanhMuc = new Guna.UI2.WinForms.Guna2Button();
             btnCuonSach = new Guna.UI2.WinForms.Guna2Button();
             btnDauSach = new Guna.UI2.WinForms.Guna2Button();
             btnChiTietSach = new Guna.UI2.WinForms.Guna2Button();
@@ -58,106 +52,46 @@
             pannelRibbon.BackColor = Color.FromArgb(2, 76, 170);
             pannelRibbon.BorderColor = Color.Black;
             pannelRibbon.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            pannelRibbon.Controls.Add(guna2Button5);
-            pannelRibbon.Controls.Add(guna2Button4);
-            pannelRibbon.Controls.Add(guna2Button3);
+            pannelRibbon.Controls.Add(btnDanhMuc);
             pannelRibbon.Controls.Add(btnCuonSach);
             pannelRibbon.Controls.Add(btnDauSach);
             pannelRibbon.Controls.Add(btnChiTietSach);
-            pannelRibbon.CustomizableEdges = customizableEdges13;
+            pannelRibbon.CustomizableEdges = customizableEdges9;
             pannelRibbon.Dock = DockStyle.Top;
             pannelRibbon.Location = new Point(0, 0);
             pannelRibbon.Name = "pannelRibbon";
-            pannelRibbon.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            pannelRibbon.ShadowDecoration.CustomizableEdges = customizableEdges10;
             pannelRibbon.Size = new Size(2035, 102);
             pannelRibbon.TabIndex = 9;
             // 
-            // guna2Button5
+            // btnDanhMuc
             // 
-            guna2Button5.BorderColor = Color.Transparent;
-            guna2Button5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            guna2Button5.CheckedState.CustomBorderColor = Color.FromArgb(192, 0, 0);
-            guna2Button5.CheckedState.FillColor = Color.White;
-            guna2Button5.CheckedState.ForeColor = Color.FromArgb(2, 76, 170);
-            guna2Button5.CustomBorderThickness = new Padding(0, 0, 0, 5);
-            guna2Button5.CustomizableEdges = customizableEdges1;
-            guna2Button5.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button5.FillColor = Color.Transparent;
-            guna2Button5.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button5.ForeColor = Color.White;
-            guna2Button5.HoverState.CustomBorderColor = Color.FromArgb(192, 0, 0);
-            guna2Button5.HoverState.FillColor = Color.White;
-            guna2Button5.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button5.HoverState.ForeColor = Color.FromArgb(2, 76, 170);
-            guna2Button5.ImageSize = new Size(0, 0);
-            guna2Button5.Location = new Point(1318, 0);
-            guna2Button5.Name = "guna2Button5";
-            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Button5.Size = new Size(247, 102);
-            guna2Button5.TabIndex = 7;
-            guna2Button5.Text = "Chi tiết sách";
-            guna2Button5.Click += btnTimKiem_Click;
-            // 
-            // guna2Button4
-            // 
-            guna2Button4.BorderColor = Color.Transparent;
-            guna2Button4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            guna2Button4.CheckedState.CustomBorderColor = Color.FromArgb(192, 0, 0);
-            guna2Button4.CheckedState.FillColor = Color.White;
-            guna2Button4.CheckedState.ForeColor = Color.FromArgb(2, 76, 170);
-            guna2Button4.CustomBorderThickness = new Padding(0, 0, 0, 5);
-            guna2Button4.CustomizableEdges = customizableEdges3;
-            guna2Button4.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button4.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button4.FillColor = Color.Transparent;
-            guna2Button4.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button4.ForeColor = Color.White;
-            guna2Button4.HoverState.CustomBorderColor = Color.FromArgb(192, 0, 0);
-            guna2Button4.HoverState.FillColor = Color.White;
-            guna2Button4.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button4.HoverState.ForeColor = Color.FromArgb(2, 76, 170);
-            guna2Button4.ImageSize = new Size(0, 0);
-            guna2Button4.Location = new Point(1065, 0);
-            guna2Button4.Name = "guna2Button4";
-            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Button4.Size = new Size(247, 102);
-            guna2Button4.TabIndex = 7;
-            guna2Button4.Text = "Chi tiết sách";
-            guna2Button4.Click += btnTimKiem_Click;
-            // 
-            // guna2Button3
-            // 
-            guna2Button3.BorderColor = Color.Transparent;
-            guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            guna2Button3.CheckedState.CustomBorderColor = Color.FromArgb(192, 0, 0);
-            guna2Button3.CheckedState.FillColor = Color.White;
-            guna2Button3.CheckedState.ForeColor = Color.FromArgb(2, 76, 170);
-            guna2Button3.CustomBorderThickness = new Padding(0, 0, 0, 5);
-            guna2Button3.CustomizableEdges = customizableEdges5;
-            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button3.FillColor = Color.Transparent;
-            guna2Button3.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button3.ForeColor = Color.White;
-            guna2Button3.HoverState.CustomBorderColor = Color.FromArgb(192, 0, 0);
-            guna2Button3.HoverState.FillColor = Color.White;
-            guna2Button3.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button3.HoverState.ForeColor = Color.FromArgb(2, 76, 170);
-            guna2Button3.ImageSize = new Size(0, 0);
-            guna2Button3.Location = new Point(812, 0);
-            guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2Button3.Size = new Size(247, 102);
-            guna2Button3.TabIndex = 7;
-            guna2Button3.Text = "Chi tiết sách";
-            guna2Button3.Click += btnTimKiem_Click;
+            btnDanhMuc.BorderColor = Color.Transparent;
+            btnDanhMuc.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            btnDanhMuc.CheckedState.CustomBorderColor = Color.FromArgb(192, 0, 0);
+            btnDanhMuc.CheckedState.FillColor = Color.White;
+            btnDanhMuc.CheckedState.ForeColor = Color.FromArgb(2, 76, 170);
+            btnDanhMuc.CustomBorderThickness = new Padding(0, 0, 0, 5);
+            btnDanhMuc.CustomizableEdges = customizableEdges1;
+            btnDanhMuc.DisabledState.BorderColor = Color.DarkGray;
+            btnDanhMuc.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnDanhMuc.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnDanhMuc.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnDanhMuc.FillColor = Color.Transparent;
+            btnDanhMuc.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDanhMuc.ForeColor = Color.White;
+            btnDanhMuc.HoverState.CustomBorderColor = Color.FromArgb(192, 0, 0);
+            btnDanhMuc.HoverState.FillColor = Color.White;
+            btnDanhMuc.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDanhMuc.HoverState.ForeColor = Color.FromArgb(2, 76, 170);
+            btnDanhMuc.ImageSize = new Size(0, 0);
+            btnDanhMuc.Location = new Point(812, 0);
+            btnDanhMuc.Name = "btnDanhMuc";
+            btnDanhMuc.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnDanhMuc.Size = new Size(247, 102);
+            btnDanhMuc.TabIndex = 7;
+            btnDanhMuc.Text = "Danh mục";
+            btnDanhMuc.Click += btnDanhMuc_Click;
             // 
             // btnCuonSach
             // 
@@ -167,7 +101,7 @@
             btnCuonSach.CheckedState.FillColor = Color.White;
             btnCuonSach.CheckedState.ForeColor = Color.FromArgb(2, 76, 170);
             btnCuonSach.CustomBorderThickness = new Padding(0, 0, 0, 5);
-            btnCuonSach.CustomizableEdges = customizableEdges7;
+            btnCuonSach.CustomizableEdges = customizableEdges3;
             btnCuonSach.DisabledState.BorderColor = Color.DarkGray;
             btnCuonSach.DisabledState.CustomBorderColor = Color.DarkGray;
             btnCuonSach.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -182,7 +116,7 @@
             btnCuonSach.ImageSize = new Size(0, 0);
             btnCuonSach.Location = new Point(559, 0);
             btnCuonSach.Name = "btnCuonSach";
-            btnCuonSach.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            btnCuonSach.ShadowDecoration.CustomizableEdges = customizableEdges4;
             btnCuonSach.Size = new Size(247, 102);
             btnCuonSach.TabIndex = 7;
             btnCuonSach.Text = "Cuốn sách";
@@ -196,7 +130,7 @@
             btnDauSach.CheckedState.FillColor = Color.White;
             btnDauSach.CheckedState.ForeColor = Color.FromArgb(2, 76, 170);
             btnDauSach.CustomBorderThickness = new Padding(0, 0, 0, 5);
-            btnDauSach.CustomizableEdges = customizableEdges9;
+            btnDauSach.CustomizableEdges = customizableEdges5;
             btnDauSach.DisabledState.BorderColor = Color.DarkGray;
             btnDauSach.DisabledState.CustomBorderColor = Color.DarkGray;
             btnDauSach.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -211,7 +145,7 @@
             btnDauSach.ImageSize = new Size(0, 0);
             btnDauSach.Location = new Point(306, 0);
             btnDauSach.Name = "btnDauSach";
-            btnDauSach.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btnDauSach.ShadowDecoration.CustomizableEdges = customizableEdges6;
             btnDauSach.Size = new Size(247, 102);
             btnDauSach.TabIndex = 7;
             btnDauSach.Text = "Đầu sách";
@@ -225,7 +159,7 @@
             btnChiTietSach.CheckedState.FillColor = Color.White;
             btnChiTietSach.CheckedState.ForeColor = Color.FromArgb(2, 76, 170);
             btnChiTietSach.CustomBorderThickness = new Padding(0, 0, 0, 5);
-            btnChiTietSach.CustomizableEdges = customizableEdges11;
+            btnChiTietSach.CustomizableEdges = customizableEdges7;
             btnChiTietSach.DisabledState.BorderColor = Color.DarkGray;
             btnChiTietSach.DisabledState.CustomBorderColor = Color.DarkGray;
             btnChiTietSach.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -240,7 +174,7 @@
             btnChiTietSach.ImageSize = new Size(0, 0);
             btnChiTietSach.Location = new Point(53, 0);
             btnChiTietSach.Name = "btnChiTietSach";
-            btnChiTietSach.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            btnChiTietSach.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btnChiTietSach.Size = new Size(247, 102);
             btnChiTietSach.TabIndex = 7;
             btnChiTietSach.Text = "Chi tiết sách";
@@ -271,9 +205,7 @@
         private Guna.UI2.WinForms.Guna2Panel pannelRibbon;
         private Guna.UI2.WinForms.Guna2Button btnChiTietSach;
         private Panel panelContainer;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button btnDanhMuc;
         private Guna.UI2.WinForms.Guna2Button btnCuonSach;
         private Guna.UI2.WinForms.Guna2Button btnDauSach;
     }

@@ -137,7 +137,6 @@
             dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(2, 76, 170);
             dataGridViewCellStyle1.SelectionForeColor = Color.White;
             dgvDSDauSach.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dgvDSDauSach.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             dgvDSDauSach.BorderStyle = BorderStyle.None;
             dgvDSDauSach.CellBorderStyle = DataGridViewCellBorderStyle.None;
             dgvDSDauSach.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
@@ -174,6 +173,7 @@
             dgvDSDauSach.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             dgvDSDauSach.RowHeadersWidth = 72;
             dgvDSDauSach.RowTemplate.Height = 50;
+            dgvDSDauSach.ScrollBars = ScrollBars.Vertical;
             dgvDSDauSach.Size = new Size(1927, 575);
             dgvDSDauSach.TabIndex = 0;
             dgvDSDauSach.SelectionChanged += dgvDSDauSach_SelectionChanged;
@@ -184,7 +184,7 @@
             MaDauSach.HeaderText = "Mã đầu sách";
             MaDauSach.MinimumWidth = 9;
             MaDauSach.Name = "MaDauSach";
-            MaDauSach.Width = 175;
+            MaDauSach.Width = 170;
             // 
             // TenDauSach
             // 
@@ -192,7 +192,7 @@
             TenDauSach.HeaderText = "Tên đầu sách";
             TenDauSach.MinimumWidth = 9;
             TenDauSach.Name = "TenDauSach";
-            TenDauSach.Width = 178;
+            TenDauSach.Width = 570;
             // 
             // NamXuatBan
             // 
@@ -200,7 +200,7 @@
             NamXuatBan.HeaderText = "Năm XB";
             NamXuatBan.MinimumWidth = 9;
             NamXuatBan.Name = "NamXuatBan";
-            NamXuatBan.Width = 132;
+            NamXuatBan.Width = 150;
             // 
             // GiaBia
             // 
@@ -208,7 +208,7 @@
             GiaBia.HeaderText = "Giá bìa";
             GiaBia.MinimumWidth = 9;
             GiaBia.Name = "GiaBia";
-            GiaBia.Width = 120;
+            GiaBia.Width = 150;
             // 
             // SoTrang
             // 
@@ -216,7 +216,7 @@
             SoTrang.HeaderText = "Số trang";
             SoTrang.MinimumWidth = 9;
             SoTrang.Name = "SoTrang";
-            SoTrang.Width = 136;
+            SoTrang.Width = 150;
             // 
             // MaLoaiSach
             // 
@@ -224,7 +224,7 @@
             MaLoaiSach.HeaderText = "Mã loại sách";
             MaLoaiSach.MinimumWidth = 9;
             MaLoaiSach.Name = "MaLoaiSach";
-            MaLoaiSach.Width = 174;
+            MaLoaiSach.Width = 170;
             // 
             // MaChuDe
             // 
@@ -232,7 +232,7 @@
             MaChuDe.HeaderText = "Mã chủ đề";
             MaChuDe.MinimumWidth = 9;
             MaChuDe.Name = "MaChuDe";
-            MaChuDe.Width = 155;
+            MaChuDe.Width = 170;
             // 
             // MaNXB
             // 
@@ -240,7 +240,7 @@
             MaNXB.HeaderText = "Mã NXB";
             MaNXB.MinimumWidth = 9;
             MaNXB.Name = "MaNXB";
-            MaNXB.Width = 133;
+            MaNXB.Width = 170;
             // 
             // MaKho
             // 
@@ -248,7 +248,7 @@
             MaKho.HeaderText = "Mã kho";
             MaKho.MinimumWidth = 9;
             MaKho.Name = "MaKho";
-            MaKho.Width = 127;
+            MaKho.Width = 170;
             // 
             // panelContainer
             // 
@@ -289,6 +289,7 @@
             grbTTDS.Controls.Add(label2);
             grbTTDS.Controls.Add(txtMaDauSach);
             grbTTDS.Controls.Add(label1);
+            grbTTDS.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             grbTTDS.ForeColor = Color.Black;
             grbTTDS.Location = new Point(54, 204);
             grbTTDS.Name = "grbTTDS";
@@ -705,15 +706,6 @@
 
         private Guna.UI2.WinForms.Guna2Button btnTaoMoi;
         private DataGridView dgvDSDauSach;
-        private DataGridViewTextBoxColumn MaDauSach;
-        private DataGridViewTextBoxColumn TenDauSach;
-        private DataGridViewTextBoxColumn NamXuatBan;
-        private DataGridViewTextBoxColumn GiaBia;
-        private DataGridViewTextBoxColumn SoTrang;
-        private DataGridViewTextBoxColumn MaLoaiSach;
-        private DataGridViewTextBoxColumn MaChuDe;
-        private DataGridViewTextBoxColumn MaNXB;
-        private DataGridViewTextBoxColumn MaKho;
         private Panel panelContainer;
         private Label lblQuanLySach;
         private GroupBox grbTTDS;
@@ -739,5 +731,14 @@
         private Guna.UI2.WinForms.Guna2ComboBox cboMaChuDe;
         private Guna.UI2.WinForms.Guna2ComboBox cboMaLoaiSach;
         private Guna.UI2.WinForms.Guna2TextBox txtSearch;
+        private DataGridViewTextBoxColumn MaDauSach;
+        private DataGridViewTextBoxColumn TenDauSach;
+        private DataGridViewTextBoxColumn NamXuatBan;
+        private DataGridViewTextBoxColumn GiaBia;
+        private DataGridViewTextBoxColumn SoTrang;
+        private DataGridViewTextBoxColumn MaLoaiSach;
+        private DataGridViewTextBoxColumn MaChuDe;
+        private DataGridViewTextBoxColumn MaNXB;
+        private DataGridViewTextBoxColumn MaKho;
     }
 }

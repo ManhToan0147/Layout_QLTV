@@ -53,6 +53,7 @@
             dgvDauSach = new DataGridView();
             MaDauSach = new DataGridViewTextBoxColumn();
             TenDauSach = new DataGridViewTextBoxColumn();
+            TenKho = new DataGridViewTextBoxColumn();
             grbCuonSach = new GroupBox();
             dgvCuonSach = new DataGridView();
             MaSach = new DataGridViewTextBoxColumn();
@@ -84,9 +85,10 @@
             // grbDauSach
             // 
             grbDauSach.Controls.Add(dgvDauSach);
-            grbDauSach.Location = new Point(193, 376);
+            grbDauSach.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            grbDauSach.Location = new Point(77, 324);
             grbDauSach.Name = "grbDauSach";
-            grbDauSach.Size = new Size(855, 644);
+            grbDauSach.Size = new Size(1116, 753);
             grbDauSach.TabIndex = 9;
             grbDauSach.TabStop = false;
             grbDauSach.Text = "Thông tin đầu sách";
@@ -100,7 +102,6 @@
             dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(2, 76, 170);
             dataGridViewCellStyle1.SelectionForeColor = Color.White;
             dgvDauSach.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dgvDauSach.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             dgvDauSach.BorderStyle = BorderStyle.None;
             dgvDauSach.CellBorderStyle = DataGridViewCellBorderStyle.None;
             dgvDauSach.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
@@ -113,7 +114,7 @@
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
             dgvDauSach.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dgvDauSach.ColumnHeadersHeight = 50;
-            dgvDauSach.Columns.AddRange(new DataGridViewColumn[] { MaDauSach, TenDauSach });
+            dgvDauSach.Columns.AddRange(new DataGridViewColumn[] { MaDauSach, TenDauSach, TenKho });
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = SystemColors.Window;
             dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
@@ -139,8 +140,9 @@
             dataGridViewCellStyle5.ForeColor = Color.Black;
             dgvDauSach.RowsDefaultCellStyle = dataGridViewCellStyle5;
             dgvDauSach.RowTemplate.Height = 50;
+            dgvDauSach.ScrollBars = ScrollBars.Vertical;
             dgvDauSach.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvDauSach.Size = new Size(849, 610);
+            dgvDauSach.Size = new Size(1110, 719);
             dgvDauSach.TabIndex = 1;
             dgvDauSach.SelectionChanged += dgvDauSach_SelectionChanged;
             // 
@@ -150,7 +152,7 @@
             MaDauSach.HeaderText = "Mã đầu sách";
             MaDauSach.MinimumWidth = 9;
             MaDauSach.Name = "MaDauSach";
-            MaDauSach.Width = 175;
+            MaDauSach.Width = 160;
             // 
             // TenDauSach
             // 
@@ -158,14 +160,23 @@
             TenDauSach.HeaderText = "Tên đầu sách";
             TenDauSach.MinimumWidth = 9;
             TenDauSach.Name = "TenDauSach";
-            TenDauSach.Width = 178;
+            TenDauSach.Width = 570;
+            // 
+            // TenKho
+            // 
+            TenKho.DataPropertyName = "TenKho";
+            TenKho.HeaderText = "Kho sách";
+            TenKho.MinimumWidth = 9;
+            TenKho.Name = "TenKho";
+            TenKho.Width = 346;
             // 
             // grbCuonSach
             // 
             grbCuonSach.Controls.Add(dgvCuonSach);
-            grbCuonSach.Location = new Point(1112, 376);
+            grbCuonSach.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            grbCuonSach.Location = new Point(1228, 324);
             grbCuonSach.Name = "grbCuonSach";
-            grbCuonSach.Size = new Size(730, 644);
+            grbCuonSach.Size = new Size(730, 753);
             grbCuonSach.TabIndex = 10;
             grbCuonSach.TabStop = false;
             grbCuonSach.Text = "Cuốn sách";
@@ -203,7 +214,7 @@
             dgvCuonSach.DefaultCellStyle = dataGridViewCellStyle8;
             dgvCuonSach.Dock = DockStyle.Fill;
             dgvCuonSach.EnableHeadersVisualStyles = false;
-            dgvCuonSach.Location = new Point(3, 31);
+            dgvCuonSach.Location = new Point(3, 32);
             dgvCuonSach.Name = "dgvCuonSach";
             dgvCuonSach.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
@@ -218,7 +229,7 @@
             dataGridViewCellStyle10.ForeColor = Color.Black;
             dgvCuonSach.RowsDefaultCellStyle = dataGridViewCellStyle10;
             dgvCuonSach.RowTemplate.Height = 50;
-            dgvCuonSach.Size = new Size(724, 610);
+            dgvCuonSach.Size = new Size(724, 718);
             dgvCuonSach.TabIndex = 1;
             // 
             // MaSach
@@ -261,7 +272,7 @@
             txtSearch.PlaceholderText = "Nhập để tìm kiếm đầu sách";
             txtSearch.SelectedText = "";
             txtSearch.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            txtSearch.Size = new Size(1379, 75);
+            txtSearch.Size = new Size(1602, 75);
             txtSearch.TabIndex = 11;
             txtSearch.TextOffset = new Point(10, 0);
             txtSearch.TextChanged += txtSearch_TextChanged;
@@ -270,9 +281,9 @@
             // 
             panelSearching.BackColor = Color.Transparent;
             panelSearching.Controls.Add(txtSearch);
-            panelSearching.Location = new Point(196, 158);
+            panelSearching.Location = new Point(80, 140);
             panelSearching.Name = "panelSearching";
-            panelSearching.Size = new Size(1643, 136);
+            panelSearching.Size = new Size(1878, 136);
             panelSearching.TabIndex = 11;
             // 
             // btnXemChiTiet
@@ -293,10 +304,10 @@
             btnXemChiTiet.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnXemChiTiet.HoverState.ForeColor = Color.FromArgb(0, 172, 232);
             btnXemChiTiet.ImageSize = new Size(0, 0);
-            btnXemChiTiet.Location = new Point(196, 1073);
+            btnXemChiTiet.Location = new Point(265, 1131);
             btnXemChiTiet.Name = "btnXemChiTiet";
             btnXemChiTiet.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btnXemChiTiet.Size = new Size(852, 79);
+            btnXemChiTiet.Size = new Size(750, 79);
             btnXemChiTiet.TabIndex = 12;
             btnXemChiTiet.Text = "Xem chi tiết";
             btnXemChiTiet.Click += btnXemChiTiet_Click;
@@ -319,7 +330,7 @@
             btnXoa.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnXoa.HoverState.ForeColor = Color.FromArgb(0, 172, 232);
             btnXoa.ImageSize = new Size(0, 0);
-            btnXoa.Location = new Point(1380, 1073);
+            btnXoa.Location = new Point(1494, 1131);
             btnXoa.Name = "btnXoa";
             btnXoa.ShadowDecoration.CustomizableEdges = customizableEdges6;
             btnXoa.Size = new Size(194, 79);
@@ -345,7 +356,7 @@
             btnSua.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSua.HoverState.ForeColor = Color.FromArgb(0, 172, 232);
             btnSua.ImageSize = new Size(0, 0);
-            btnSua.Location = new Point(1645, 1073);
+            btnSua.Location = new Point(1759, 1131);
             btnSua.Name = "btnSua";
             btnSua.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btnSua.Size = new Size(194, 79);
@@ -372,7 +383,7 @@
             btnThem.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnThem.HoverState.ForeColor = Color.FromArgb(0, 172, 232);
             btnThem.ImageSize = new Size(0, 0);
-            btnThem.Location = new Point(1115, 1073);
+            btnThem.Location = new Point(1229, 1131);
             btnThem.Name = "btnThem";
             btnThem.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btnThem.Size = new Size(194, 79);
@@ -418,9 +429,10 @@
         private Guna.UI2.WinForms.Guna2Button btnThem;
         private DataGridView dgvDauSach;
         private DataGridView dgvCuonSach;
-        private DataGridViewTextBoxColumn MaDauSach;
-        private DataGridViewTextBoxColumn TenDauSach;
         private DataGridViewTextBoxColumn MaSach;
         private DataGridViewTextBoxColumn TinhTrang;
+        private DataGridViewTextBoxColumn MaDauSach;
+        private DataGridViewTextBoxColumn TenDauSach;
+        private DataGridViewTextBoxColumn TenKho;
     }
 }

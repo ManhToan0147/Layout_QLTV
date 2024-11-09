@@ -66,14 +66,14 @@
             panelSideBar = new Panel();
             panel2 = new Panel();
             btnBaoCao = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            btnCaiDat = new Guna.UI2.WinForms.Guna2Button();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             panelLine = new Panel();
             lblSupport = new Label();
             lblMain = new Label();
             btnNothing = new Guna.UI2.WinForms.Guna2Button();
             btnSetting = new Guna.UI2.WinForms.Guna2Button();
-            btnSent = new Guna.UI2.WinForms.Guna2Button();
+            btnQLTacGia = new Guna.UI2.WinForms.Guna2Button();
             btnQuanLySach = new Guna.UI2.WinForms.Guna2Button();
             btnHome = new Guna.UI2.WinForms.Guna2Button();
             pictureBox1 = new PictureBox();
@@ -193,14 +193,14 @@
             panelSideBar.BackColor = Color.White;
             panelSideBar.Controls.Add(panel2);
             panelSideBar.Controls.Add(btnBaoCao);
-            panelSideBar.Controls.Add(guna2Button2);
+            panelSideBar.Controls.Add(btnCaiDat);
             panelSideBar.Controls.Add(guna2Button1);
             panelSideBar.Controls.Add(panelLine);
             panelSideBar.Controls.Add(lblSupport);
             panelSideBar.Controls.Add(lblMain);
             panelSideBar.Controls.Add(btnNothing);
             panelSideBar.Controls.Add(btnSetting);
-            panelSideBar.Controls.Add(btnSent);
+            panelSideBar.Controls.Add(btnQLTacGia);
             panelSideBar.Controls.Add(btnQuanLySach);
             panelSideBar.Controls.Add(btnHome);
             panelSideBar.Controls.Add(pictureBox1);
@@ -252,38 +252,39 @@
             btnBaoCao.TextAlign = HorizontalAlignment.Left;
             btnBaoCao.TextOffset = new Point(80, 0);
             // 
-            // guna2Button2
+            // btnCaiDat
             // 
-            guna2Button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            guna2Button2.AutoRoundedCorners = true;
-            guna2Button2.BorderRadius = 38;
-            guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            guna2Button2.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
-            guna2Button2.CheckedState.ForeColor = Color.White;
-            guna2Button2.CustomizableEdges = customizableEdges9;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.White;
-            guna2Button2.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button2.ForeColor = Color.FromArgb(9, 62, 135);
-            guna2Button2.HoverState.FillColor = Color.FromArgb(0, 172, 232);
-            guna2Button2.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button2.HoverState.ForeColor = Color.White;
-            guna2Button2.HoverState.Image = Layout_QLTV.Properties.Resources.settings__1_;
-            guna2Button2.Image = Layout_QLTV.Properties.Resources.settings;
-            guna2Button2.ImageAlign = HorizontalAlignment.Left;
-            guna2Button2.ImageOffset = new Point(60, 0);
-            guna2Button2.ImageSize = new Size(25, 25);
-            guna2Button2.Location = new Point(34, 1106);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Button2.Size = new Size(367, 79);
-            guna2Button2.TabIndex = 8;
-            guna2Button2.Text = "Cài đặt";
-            guna2Button2.TextAlign = HorizontalAlignment.Left;
-            guna2Button2.TextOffset = new Point(80, 0);
+            btnCaiDat.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnCaiDat.AutoRoundedCorners = true;
+            btnCaiDat.BorderRadius = 38;
+            btnCaiDat.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            btnCaiDat.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
+            btnCaiDat.CheckedState.ForeColor = Color.White;
+            btnCaiDat.CustomizableEdges = customizableEdges9;
+            btnCaiDat.DisabledState.BorderColor = Color.DarkGray;
+            btnCaiDat.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnCaiDat.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnCaiDat.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnCaiDat.FillColor = Color.White;
+            btnCaiDat.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCaiDat.ForeColor = Color.FromArgb(9, 62, 135);
+            btnCaiDat.HoverState.FillColor = Color.FromArgb(0, 172, 232);
+            btnCaiDat.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCaiDat.HoverState.ForeColor = Color.White;
+            btnCaiDat.HoverState.Image = Layout_QLTV.Properties.Resources.settings__1_;
+            btnCaiDat.Image = Layout_QLTV.Properties.Resources.settings;
+            btnCaiDat.ImageAlign = HorizontalAlignment.Left;
+            btnCaiDat.ImageOffset = new Point(60, 0);
+            btnCaiDat.ImageSize = new Size(25, 25);
+            btnCaiDat.Location = new Point(34, 1106);
+            btnCaiDat.Name = "btnCaiDat";
+            btnCaiDat.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btnCaiDat.Size = new Size(367, 79);
+            btnCaiDat.TabIndex = 8;
+            btnCaiDat.Text = "Cài đặt";
+            btnCaiDat.TextAlign = HorizontalAlignment.Left;
+            btnCaiDat.TextOffset = new Point(80, 0);
+            btnCaiDat.Click += btnCaiDat_Click;
             // 
             // guna2Button1
             // 
@@ -418,38 +419,38 @@
             btnSetting.TextOffset = new Point(80, 0);
             btnSetting.Click += btnSetting_Click;
             // 
-            // btnSent
+            // btnQLTacGia
             // 
-            btnSent.AutoRoundedCorners = true;
-            btnSent.BorderRadius = 38;
-            btnSent.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnSent.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
-            btnSent.CheckedState.ForeColor = Color.White;
-            btnSent.CustomizableEdges = customizableEdges17;
-            btnSent.DisabledState.BorderColor = Color.DarkGray;
-            btnSent.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnSent.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnSent.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnSent.FillColor = Color.White;
-            btnSent.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSent.ForeColor = Color.FromArgb(9, 62, 135);
-            btnSent.HoverState.FillColor = Color.FromArgb(0, 172, 232);
-            btnSent.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSent.HoverState.ForeColor = Color.White;
-            btnSent.HoverState.Image = Layout_QLTV.Properties.Resources.pen_nib__1_;
-            btnSent.Image = Layout_QLTV.Properties.Resources.pen_nib;
-            btnSent.ImageAlign = HorizontalAlignment.Left;
-            btnSent.ImageOffset = new Point(60, 0);
-            btnSent.ImageSize = new Size(25, 25);
-            btnSent.Location = new Point(34, 577);
-            btnSent.Name = "btnSent";
-            btnSent.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            btnSent.Size = new Size(367, 79);
-            btnSent.TabIndex = 5;
-            btnSent.Text = "Quản lý tác giả";
-            btnSent.TextAlign = HorizontalAlignment.Left;
-            btnSent.TextOffset = new Point(80, 0);
-            btnSent.Click += btnSent_Click;
+            btnQLTacGia.AutoRoundedCorners = true;
+            btnQLTacGia.BorderRadius = 38;
+            btnQLTacGia.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            btnQLTacGia.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
+            btnQLTacGia.CheckedState.ForeColor = Color.White;
+            btnQLTacGia.CustomizableEdges = customizableEdges17;
+            btnQLTacGia.DisabledState.BorderColor = Color.DarkGray;
+            btnQLTacGia.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnQLTacGia.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnQLTacGia.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnQLTacGia.FillColor = Color.White;
+            btnQLTacGia.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnQLTacGia.ForeColor = Color.FromArgb(9, 62, 135);
+            btnQLTacGia.HoverState.FillColor = Color.FromArgb(0, 172, 232);
+            btnQLTacGia.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnQLTacGia.HoverState.ForeColor = Color.White;
+            btnQLTacGia.HoverState.Image = Layout_QLTV.Properties.Resources.pen_nib__1_;
+            btnQLTacGia.Image = Layout_QLTV.Properties.Resources.pen_nib;
+            btnQLTacGia.ImageAlign = HorizontalAlignment.Left;
+            btnQLTacGia.ImageOffset = new Point(60, 0);
+            btnQLTacGia.ImageSize = new Size(25, 25);
+            btnQLTacGia.Location = new Point(34, 577);
+            btnQLTacGia.Name = "btnQLTacGia";
+            btnQLTacGia.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            btnQLTacGia.Size = new Size(367, 79);
+            btnQLTacGia.TabIndex = 5;
+            btnQLTacGia.Text = "Quản lý tác giả";
+            btnQLTacGia.TextAlign = HorizontalAlignment.Left;
+            btnQLTacGia.TextOffset = new Point(80, 0);
+            btnQLTacGia.Click += btnQLTacGia_Click;
             // 
             // btnQuanLySach
             // 
@@ -643,12 +644,12 @@
         private Guna.UI2.WinForms.Guna2Button btnHome;
         private Guna.UI2.WinForms.Guna2Button btnNothing;
         private Guna.UI2.WinForms.Guna2Button btnSetting;
-        private Guna.UI2.WinForms.Guna2Button btnSent;
+        private Guna.UI2.WinForms.Guna2Button btnQLTacGia;
         private Guna.UI2.WinForms.Guna2Button btnQuanLySach;
         private Label lblMain;
         private Panel panelLine;
         private Label lblSupport;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btnCaiDat;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Label lblTenSP;
         private Guna.UI2.WinForms.Guna2Button btnBaoCao;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Layout_QLTV.csproj": {}
+    "D:\\Downloads\\Layout_QLTV\\Layout_QLTV\\Layout_QLTV.csproj": {}
   },
   "projects": {
-    "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Layout_QLTV.csproj": {
+    "D:\\Downloads\\Layout_QLTV\\Layout_QLTV\\Layout_QLTV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Layout_QLTV.csproj",
+        "projectUniqueName": "D:\\Downloads\\Layout_QLTV\\Layout_QLTV\\Layout_QLTV.csproj",
         "projectName": "Layout_QLTV",
-        "projectPath": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\Layout_QLTV.csproj",
+        "projectPath": "D:\\Downloads\\Layout_QLTV\\Layout_QLTV\\Layout_QLTV.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\My Project\\Layout_QLTV\\Layout_QLTV\\obj\\",
+        "outputPath": "D:\\Downloads\\Layout_QLTV\\Layout_QLTV\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

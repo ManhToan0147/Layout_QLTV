@@ -48,7 +48,7 @@ namespace Layout_QLTV.Child_UC
         {
             using (con = new SqlConnection(strCon))
             {
-                string sql = "Select MaDauSach, TenDauSach from DauSach";
+                string sql = "Select MaDauSach, TenDauSach, ks.TenKho from DauSach ds left join KhoSach ks on ds.MaKho = ks.MaKho";
                 adapter = new SqlDataAdapter(sql, con);
                 dt = new DataTable();
                 adapter.Fill(dt);
@@ -220,10 +220,9 @@ namespace Layout_QLTV.Child_UC
                 MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (rs == DialogResult.Yes)
                 {
-                    int i = dgvCuonSach.CurrentRow.Index;
                     foreach (DataGridViewRow row in dgvCuonSach.SelectedRows)
                     {
-                        string maSach = row.Cells["MaSach"].Value.ToString();
+                        string maSach = row.Cells["MaSach"].Value?.ToString() ?? string.Empty;
                         string sql = $"Delete from CuonSach where MaSach = '{maSach}'";
                         DoSQL(sql);
                     }

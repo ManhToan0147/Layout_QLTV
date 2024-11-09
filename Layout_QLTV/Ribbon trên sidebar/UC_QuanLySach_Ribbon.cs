@@ -46,5 +46,11 @@ namespace Layout_QLTV
             UC_CuonSach uc = new UC_CuonSach();
             addUserControl(uc);
         }
+
+        private void btnDanhMuc_Click(object sender, EventArgs e)
+        {
+            UC_DanhMuc uc = new UC_DanhMuc();
+            addUserControl(uc);
+        }
     }
 }

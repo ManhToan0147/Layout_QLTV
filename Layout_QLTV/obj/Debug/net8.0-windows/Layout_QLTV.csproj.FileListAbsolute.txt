@@ -38,3 +38,49 @@ D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.UC_Ch
 D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.UC_QuanLySach_Ribbon.resources
 D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Child_UC.UC_DauSach.resources
 D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Child_UC.UC_CuonSach.resources
+D:\My Project\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Child_UC.UC_DanhMuc.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.csproj.AssemblyReference.cache
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.UC_ChiTietSach.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Child_UC.UC_CuonSach.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Child_UC.UC_DanhMuc.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Child_UC.UC_DauSach.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.ChiTietSach.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout.frmLayout.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Dental_Application.frmSignIn.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Custom_Tabs.UC_Home.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Custom_Tabs.UC_Inbox.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.UC_Nothing.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Custom_Tabs.UC_Sent.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Custom_Tabs.UC_Setting.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Properties.Resources.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.UC_QuanLySach_Ribbon.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.csproj.GenerateResource.cache
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.AssemblyInfoInputs.cache
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.AssemblyInfo.cs
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.csproj.CoreCompileInputs.cache
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.sourcelink.json
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.dll
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\refint\Layout_QLTV.dll
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.pdb
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\Layout_QLTV.exe
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\Layout_QLTV.deps.json
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\Layout_QLTV.runtimeconfig.json
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\Layout_QLTV.dll
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\Layout_QLTV.pdb
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\Guna.UI2.dll
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\System.Management.dll
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Downloads\Layout_QLTV\Layout_QLTV\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_Q.A75C701E.Up2Date
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.genruntimeconfig.cache
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\ref\Layout_QLTV.dll
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Ribbon_trên_sidebar.UC_QLTacGia_Ribbon.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Child_UC.QLTacGia.UC_TacGia.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Child_UC.QLTacGia.UC_TacGiaSach.resources
+D:\Downloads\Layout_QLTV\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Ribbon_trên_sidebar.UC_SaoLuuPhucHoi.resources
