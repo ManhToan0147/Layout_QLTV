@@ -140,6 +140,7 @@
             txtTenTacGia.Name = "txtTenTacGia";
             txtTenTacGia.PasswordChar = '\0';
             txtTenTacGia.PlaceholderText = "";
+            txtTenTacGia.ScrollBars = ScrollBars.Vertical;
             txtTenTacGia.SelectedText = "";
             txtTenTacGia.ShadowDecoration.CustomizableEdges = customizableEdges2;
             txtTenTacGia.Size = new Size(437, 90);

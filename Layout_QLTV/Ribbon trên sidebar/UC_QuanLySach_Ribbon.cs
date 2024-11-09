@@ -1,4 +1,5 @@
 ﻿using Layout_QLTV.Child_UC;
+using Layout_QLTV.Child_UC.QLSach;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,13 +26,13 @@ namespace Layout_QLTV
         {
             InitializeComponent();
             btnChiTietSach.Checked = true;
-            UC_ChiTietSach uc = new UC_ChiTietSach();
+            var uc = new UC_ChiTietSach();
             addUserControl(uc);
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            UC_ChiTietSach uc = new UC_ChiTietSach();
+            var uc = new UC_ChiTietSach();
             addUserControl(uc);
         }
 
