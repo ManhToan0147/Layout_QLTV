@@ -63,6 +63,16 @@ namespace Layout_QLTV.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap avatar_default {
+            get {
+                object obj = ResourceManager.GetObject("avatar_default", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap book_open_cover {
             get {
                 object obj = ResourceManager.GetObject("book-open-cover", resourceCulture);
@@ -186,6 +196,16 @@ namespace Layout_QLTV.Properties {
         internal static System.Drawing.Bitmap home1 {
             get {
                 object obj = ResourceManager.GetObject("home1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_neu {
+            get {
+                object obj = ResourceManager.GetObject("logo-neu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

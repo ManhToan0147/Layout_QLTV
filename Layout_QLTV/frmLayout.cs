@@ -1,6 +1,7 @@
 using Custom_Tabs;
 using Dental_Application;
 using Layout_QLTV;
+using Layout_QLTV.Child_UC.QLDocGia;
 using Layout_QLTV.Ribbon_trên_sidebar;
 
 namespace Layout
@@ -88,6 +89,12 @@ namespace Layout
         private void btnCaiDat_Click(object sender, EventArgs e)
         {
             var uc = new UC_SaoLuuPhucHoi();
+            addUserControl(uc);
+        }
+
+        private void btnQLDocGia_Click(object sender, EventArgs e)
+        {
+            var uc = new UC_QLDocGia();
             addUserControl(uc);
         }
     }

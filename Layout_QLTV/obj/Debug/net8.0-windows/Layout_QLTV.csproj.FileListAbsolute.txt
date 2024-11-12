@@ -174,3 +174,4 @@ D:\Downloads\Layout_QLTV new\Layout_QLTV\obj\Debug\net8.0-windows\refint\Layout_
 D:\Downloads\Layout_QLTV new\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.pdb
 D:\Downloads\Layout_QLTV new\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.genruntimeconfig.cache
 D:\Downloads\Layout_QLTV new\Layout_QLTV\obj\Debug\net8.0-windows\ref\Layout_QLTV.dll
+D:\Downloads\Layout_QLTV new\Layout_QLTV\obj\Debug\net8.0-windows\Layout_QLTV.Child_UC.QLDocGia.UC_QLDocGia.resources

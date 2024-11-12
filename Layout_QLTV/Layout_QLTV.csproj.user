@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Child UC\QLDocGia\UC_QLDocGia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Child UC\QLSach\UC_CuonSach.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -49,7 +52,7 @@
     <Compile Update="Ribbon trên sidebar\UC_QuanLySach_Ribbon.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Ribbon trên sidebar\UC_SaoLuuPhucHoi.cs">
+    <Compile Update="Child UC\CaiDat\UC_SaoLuuPhucHoi.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>

@@ -126,6 +126,7 @@
             // 
             btnDauSach.BorderColor = Color.Transparent;
             btnDauSach.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            btnDauSach.Checked = true;
             btnDauSach.CheckedState.CustomBorderColor = Color.FromArgb(192, 0, 0);
             btnDauSach.CheckedState.FillColor = Color.White;
             btnDauSach.CheckedState.ForeColor = Color.FromArgb(2, 76, 170);
@@ -155,6 +156,7 @@
             // 
             btnChiTietSach.BorderColor = Color.Transparent;
             btnChiTietSach.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            btnChiTietSach.Checked = true;
             btnChiTietSach.CheckedState.CustomBorderColor = Color.FromArgb(192, 0, 0);
             btnChiTietSach.CheckedState.FillColor = Color.White;
             btnChiTietSach.CheckedState.ForeColor = Color.FromArgb(2, 76, 170);

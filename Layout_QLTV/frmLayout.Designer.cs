@@ -72,7 +72,7 @@
             lblSupport = new Label();
             lblMain = new Label();
             btnNothing = new Guna.UI2.WinForms.Guna2Button();
-            btnSetting = new Guna.UI2.WinForms.Guna2Button();
+            btnQLDocGia = new Guna.UI2.WinForms.Guna2Button();
             btnQLTacGia = new Guna.UI2.WinForms.Guna2Button();
             btnQuanLySach = new Guna.UI2.WinForms.Guna2Button();
             btnHome = new Guna.UI2.WinForms.Guna2Button();
@@ -199,7 +199,7 @@
             panelSideBar.Controls.Add(lblSupport);
             panelSideBar.Controls.Add(lblMain);
             panelSideBar.Controls.Add(btnNothing);
-            panelSideBar.Controls.Add(btnSetting);
+            panelSideBar.Controls.Add(btnQLDocGia);
             panelSideBar.Controls.Add(btnQLTacGia);
             panelSideBar.Controls.Add(btnQuanLySach);
             panelSideBar.Controls.Add(btnHome);
@@ -386,38 +386,38 @@
             btnNothing.TextOffset = new Point(80, 0);
             btnNothing.Click += btnNothing_Click;
             // 
-            // btnSetting
+            // btnQLDocGia
             // 
-            btnSetting.AutoRoundedCorners = true;
-            btnSetting.BorderRadius = 38;
-            btnSetting.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnSetting.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
-            btnSetting.CheckedState.ForeColor = Color.White;
-            btnSetting.CustomizableEdges = customizableEdges15;
-            btnSetting.DisabledState.BorderColor = Color.DarkGray;
-            btnSetting.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnSetting.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnSetting.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnSetting.FillColor = Color.White;
-            btnSetting.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSetting.ForeColor = Color.FromArgb(9, 62, 135);
-            btnSetting.HoverState.FillColor = Color.FromArgb(0, 172, 232);
-            btnSetting.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSetting.HoverState.ForeColor = Color.White;
-            btnSetting.HoverState.Image = Layout_QLTV.Properties.Resources.book_open_reader__1_;
-            btnSetting.Image = Layout_QLTV.Properties.Resources.book_open_reader;
-            btnSetting.ImageAlign = HorizontalAlignment.Left;
-            btnSetting.ImageOffset = new Point(60, 0);
-            btnSetting.ImageSize = new Size(25, 25);
-            btnSetting.Location = new Point(34, 662);
-            btnSetting.Name = "btnSetting";
-            btnSetting.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnSetting.Size = new Size(367, 79);
-            btnSetting.TabIndex = 5;
-            btnSetting.Text = "Quản lý độc giả";
-            btnSetting.TextAlign = HorizontalAlignment.Left;
-            btnSetting.TextOffset = new Point(80, 0);
-            btnSetting.Click += btnSetting_Click;
+            btnQLDocGia.AutoRoundedCorners = true;
+            btnQLDocGia.BorderRadius = 38;
+            btnQLDocGia.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            btnQLDocGia.CheckedState.FillColor = Color.FromArgb(0, 172, 232);
+            btnQLDocGia.CheckedState.ForeColor = Color.White;
+            btnQLDocGia.CustomizableEdges = customizableEdges15;
+            btnQLDocGia.DisabledState.BorderColor = Color.DarkGray;
+            btnQLDocGia.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnQLDocGia.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnQLDocGia.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnQLDocGia.FillColor = Color.White;
+            btnQLDocGia.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnQLDocGia.ForeColor = Color.FromArgb(9, 62, 135);
+            btnQLDocGia.HoverState.FillColor = Color.FromArgb(0, 172, 232);
+            btnQLDocGia.HoverState.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnQLDocGia.HoverState.ForeColor = Color.White;
+            btnQLDocGia.HoverState.Image = Layout_QLTV.Properties.Resources.book_open_reader__1_;
+            btnQLDocGia.Image = Layout_QLTV.Properties.Resources.book_open_reader;
+            btnQLDocGia.ImageAlign = HorizontalAlignment.Left;
+            btnQLDocGia.ImageOffset = new Point(60, 0);
+            btnQLDocGia.ImageSize = new Size(25, 25);
+            btnQLDocGia.Location = new Point(34, 662);
+            btnQLDocGia.Name = "btnQLDocGia";
+            btnQLDocGia.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnQLDocGia.Size = new Size(367, 79);
+            btnQLDocGia.TabIndex = 5;
+            btnQLDocGia.Text = "Quản lý độc giả";
+            btnQLDocGia.TextAlign = HorizontalAlignment.Left;
+            btnQLDocGia.TextOffset = new Point(80, 0);
+            btnQLDocGia.Click += btnQLDocGia_Click;
             // 
             // btnQLTacGia
             // 
@@ -643,7 +643,7 @@
         private Panel panelContainer;
         private Guna.UI2.WinForms.Guna2Button btnHome;
         private Guna.UI2.WinForms.Guna2Button btnNothing;
-        private Guna.UI2.WinForms.Guna2Button btnSetting;
+        private Guna.UI2.WinForms.Guna2Button btnQLDocGia;
         private Guna.UI2.WinForms.Guna2Button btnQLTacGia;
         private Guna.UI2.WinForms.Guna2Button btnQuanLySach;
         private Label lblMain;

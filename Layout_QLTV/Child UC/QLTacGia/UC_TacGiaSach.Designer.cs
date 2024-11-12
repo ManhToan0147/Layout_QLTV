@@ -59,14 +59,14 @@
             TenDauSach = new DataGridViewTextBoxColumn();
             grbTacGia = new GroupBox();
             dgvTacGia = new DataGridView();
+            MaTacGia = new DataGridViewTextBoxColumn();
+            TenTacGia = new DataGridViewTextBoxColumn();
             grbDSTG = new GroupBox();
             dgvDSTG = new DataGridView();
             MaDauSach2 = new DataGridViewTextBoxColumn();
             MaTacGia2 = new DataGridViewTextBoxColumn();
             btnXoa = new Guna.UI2.WinForms.Guna2Button();
             btnChuyen = new Guna.UI2.WinForms.Guna2Button();
-            MaTacGia = new DataGridViewTextBoxColumn();
-            TenTacGia = new DataGridViewTextBoxColumn();
             grbDauSach.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDauSach).BeginInit();
             grbTacGia.SuspendLayout();
@@ -294,6 +294,22 @@
             dgvTacGia.TabIndex = 0;
             dgvTacGia.SelectionChanged += dgvTacGia_SelectionChanged;
             // 
+            // MaTacGia
+            // 
+            MaTacGia.DataPropertyName = "MaTG";
+            MaTacGia.HeaderText = "Mã tác giả";
+            MaTacGia.MinimumWidth = 9;
+            MaTacGia.Name = "MaTacGia";
+            MaTacGia.Width = 150;
+            // 
+            // TenTacGia
+            // 
+            TenTacGia.DataPropertyName = "TenTG";
+            TenTacGia.HeaderText = "Tên tác giả";
+            TenTacGia.MinimumWidth = 9;
+            TenTacGia.Name = "TenTacGia";
+            TenTacGia.Width = 344;
+            // 
             // grbDSTG
             // 
             grbDSTG.Controls.Add(dgvDSTG);
@@ -342,7 +358,6 @@
             dgvDSTG.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             dgvDSTG.RowHeadersWidth = 72;
             dgvDSTG.RowTemplate.Height = 50;
-            dgvDSTG.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvDSTG.Size = new Size(424, 717);
             dgvDSTG.TabIndex = 0;
             // 
@@ -411,22 +426,6 @@
             btnChuyen.TabIndex = 27;
             btnChuyen.Text = ">>";
             btnChuyen.Click += btnChuyen_Click;
-            // 
-            // MaTacGia
-            // 
-            MaTacGia.DataPropertyName = "MaTG";
-            MaTacGia.HeaderText = "Mã tác giả";
-            MaTacGia.MinimumWidth = 9;
-            MaTacGia.Name = "MaTacGia";
-            MaTacGia.Width = 150;
-            // 
-            // TenTacGia
-            // 
-            TenTacGia.DataPropertyName = "TenTG";
-            TenTacGia.HeaderText = "Tên tác giả";
-            TenTacGia.MinimumWidth = 9;
-            TenTacGia.Name = "TenTacGia";
-            TenTacGia.Width = 344;
             // 
             // UC_TacGiaSach
             // 

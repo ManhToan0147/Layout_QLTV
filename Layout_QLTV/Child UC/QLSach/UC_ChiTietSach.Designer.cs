@@ -41,24 +41,24 @@ namespace Layout_QLTV.Child_UC.QLSach
         private Panel panelContainer;
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             lblQuanLySach = new Label();
             panelContainer = new Panel();
             dgvChiTietDauSach = new DataGridView();
@@ -113,47 +113,47 @@ namespace Layout_QLTV.Child_UC.QLSach
             // dgvChiTietDauSach
             // 
             dgvChiTietDauSach.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = Color.White;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(2, 76, 170);
-            dataGridViewCellStyle1.SelectionForeColor = Color.White;
-            dgvChiTietDauSach.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle9.BackColor = Color.White;
+            dataGridViewCellStyle9.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle9.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle9.SelectionBackColor = Color.FromArgb(2, 76, 170);
+            dataGridViewCellStyle9.SelectionForeColor = Color.White;
+            dgvChiTietDauSach.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
             dgvChiTietDauSach.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvChiTietDauSach.BorderStyle = BorderStyle.None;
             dgvChiTietDauSach.CellBorderStyle = DataGridViewCellBorderStyle.None;
             dgvChiTietDauSach.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(0, 172, 232);
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(0, 172, 232);
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            dgvChiTietDauSach.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = Color.FromArgb(0, 172, 232);
+            dataGridViewCellStyle10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle10.ForeColor = Color.White;
+            dataGridViewCellStyle10.SelectionBackColor = Color.FromArgb(0, 172, 232);
+            dataGridViewCellStyle10.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = DataGridViewTriState.True;
+            dgvChiTietDauSach.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
             dgvChiTietDauSach.ColumnHeadersHeight = 50;
             dgvChiTietDauSach.Columns.AddRange(new DataGridViewColumn[] { MaDauSach, TenDauSach, TenTacGia, NamXuatBan, GiaBia, SoTrang, SoLuong, TenLoaiSach, TenChuDe, TenNXB, TenKho });
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = SystemColors.Window;
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle3.ForeColor = SystemColors.ActiveCaptionText;
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(2, 76, 170);
-            dataGridViewCellStyle3.SelectionForeColor = Color.White;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            dgvChiTietDauSach.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = SystemColors.Window;
+            dataGridViewCellStyle11.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle11.ForeColor = SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle11.SelectionBackColor = Color.FromArgb(2, 76, 170);
+            dataGridViewCellStyle11.SelectionForeColor = Color.White;
+            dataGridViewCellStyle11.WrapMode = DataGridViewTriState.False;
+            dgvChiTietDauSach.DefaultCellStyle = dataGridViewCellStyle11;
             dgvChiTietDauSach.Dock = DockStyle.Fill;
             dgvChiTietDauSach.EnableHeadersVisualStyles = false;
             dgvChiTietDauSach.Location = new Point(0, 0);
             dgvChiTietDauSach.Name = "dgvChiTietDauSach";
             dgvChiTietDauSach.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = SystemColors.Window;
-            dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle4.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Window;
-            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            dgvChiTietDauSach.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = SystemColors.Window;
+            dataGridViewCellStyle12.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle12.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle12.SelectionBackColor = SystemColors.Window;
+            dataGridViewCellStyle12.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = DataGridViewTriState.True;
+            dgvChiTietDauSach.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             dgvChiTietDauSach.RowHeadersWidth = 72;
             dgvChiTietDauSach.RowTemplate.Height = 50;
             dgvChiTietDauSach.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
@@ -260,7 +260,7 @@ namespace Layout_QLTV.Child_UC.QLSach
             // cboChuDe
             // 
             cboChuDe.BackColor = Color.Transparent;
-            cboChuDe.CustomizableEdges = customizableEdges1;
+            cboChuDe.CustomizableEdges = customizableEdges29;
             cboChuDe.DrawMode = DrawMode.OwnerDrawFixed;
             cboChuDe.DropDownStyle = ComboBoxStyle.DropDownList;
             cboChuDe.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -272,7 +272,7 @@ namespace Layout_QLTV.Child_UC.QLSach
             cboChuDe.Location = new Point(599, 201);
             cboChuDe.MaxDropDownItems = 15;
             cboChuDe.Name = "cboChuDe";
-            cboChuDe.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            cboChuDe.ShadowDecoration.CustomizableEdges = customizableEdges30;
             cboChuDe.Size = new Size(520, 46);
             cboChuDe.TabIndex = 6;
             // 
@@ -334,7 +334,7 @@ namespace Layout_QLTV.Child_UC.QLSach
             // cboNXB
             // 
             cboNXB.BackColor = Color.Transparent;
-            cboNXB.CustomizableEdges = customizableEdges3;
+            cboNXB.CustomizableEdges = customizableEdges31;
             cboNXB.DrawMode = DrawMode.OwnerDrawFixed;
             cboNXB.DropDownStyle = ComboBoxStyle.DropDownList;
             cboNXB.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -344,14 +344,14 @@ namespace Layout_QLTV.Child_UC.QLSach
             cboNXB.ItemHeight = 40;
             cboNXB.Location = new Point(1144, 201);
             cboNXB.Name = "cboNXB";
-            cboNXB.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            cboNXB.ShadowDecoration.CustomizableEdges = customizableEdges32;
             cboNXB.Size = new Size(428, 46);
             cboNXB.TabIndex = 4;
             // 
             // cboKho
             // 
             cboKho.BackColor = Color.Transparent;
-            cboKho.CustomizableEdges = customizableEdges5;
+            cboKho.CustomizableEdges = customizableEdges33;
             cboKho.DrawMode = DrawMode.OwnerDrawFixed;
             cboKho.DropDownStyle = ComboBoxStyle.DropDownList;
             cboKho.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -361,14 +361,14 @@ namespace Layout_QLTV.Child_UC.QLSach
             cboKho.ItemHeight = 40;
             cboKho.Location = new Point(1594, 201);
             cboKho.Name = "cboKho";
-            cboKho.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            cboKho.ShadowDecoration.CustomizableEdges = customizableEdges34;
             cboKho.Size = new Size(305, 46);
             cboKho.TabIndex = 3;
             // 
             // cboTacGia
             // 
             cboTacGia.BackColor = Color.Transparent;
-            cboTacGia.CustomizableEdges = customizableEdges7;
+            cboTacGia.CustomizableEdges = customizableEdges35;
             cboTacGia.DrawMode = DrawMode.OwnerDrawFixed;
             cboTacGia.DropDownStyle = ComboBoxStyle.DropDownList;
             cboTacGia.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -380,14 +380,14 @@ namespace Layout_QLTV.Child_UC.QLSach
             cboTacGia.Location = new Point(270, 201);
             cboTacGia.MaxDropDownItems = 15;
             cboTacGia.Name = "cboTacGia";
-            cboTacGia.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            cboTacGia.ShadowDecoration.CustomizableEdges = customizableEdges36;
             cboTacGia.Size = new Size(303, 46);
             cboTacGia.TabIndex = 1;
             // 
             // cboLoaiSach
             // 
             cboLoaiSach.BackColor = Color.Transparent;
-            cboLoaiSach.CustomizableEdges = customizableEdges9;
+            cboLoaiSach.CustomizableEdges = customizableEdges37;
             cboLoaiSach.DrawMode = DrawMode.OwnerDrawFixed;
             cboLoaiSach.DropDownStyle = ComboBoxStyle.DropDownList;
             cboLoaiSach.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -397,7 +397,7 @@ namespace Layout_QLTV.Child_UC.QLSach
             cboLoaiSach.ItemHeight = 40;
             cboLoaiSach.Location = new Point(27, 201);
             cboLoaiSach.Name = "cboLoaiSach";
-            cboLoaiSach.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            cboLoaiSach.ShadowDecoration.CustomizableEdges = customizableEdges38;
             cboLoaiSach.Size = new Size(219, 46);
             cboLoaiSach.TabIndex = 1;
             // 
@@ -405,7 +405,7 @@ namespace Layout_QLTV.Child_UC.QLSach
             // 
             txtSearch.AutoRoundedCorners = true;
             txtSearch.BorderRadius = 36;
-            txtSearch.CustomizableEdges = customizableEdges11;
+            txtSearch.CustomizableEdges = customizableEdges39;
             txtSearch.DefaultText = "";
             txtSearch.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtSearch.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -426,7 +426,7 @@ namespace Layout_QLTV.Child_UC.QLSach
             txtSearch.PlaceholderForeColor = Color.DimGray;
             txtSearch.PlaceholderText = "Nhập để tìm kiếm đầu sách";
             txtSearch.SelectedText = "";
-            txtSearch.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            txtSearch.ShadowDecoration.CustomizableEdges = customizableEdges40;
             txtSearch.Size = new Size(1240, 75);
             txtSearch.TabIndex = 0;
             txtSearch.TextOffset = new Point(10, 0);
@@ -436,7 +436,7 @@ namespace Layout_QLTV.Child_UC.QLSach
             btnXemChiTiet.Anchor = AnchorStyles.Top;
             btnXemChiTiet.BorderColor = Color.Transparent;
             btnXemChiTiet.BorderThickness = 2;
-            btnXemChiTiet.CustomizableEdges = customizableEdges13;
+            btnXemChiTiet.CustomizableEdges = customizableEdges41;
             btnXemChiTiet.DisabledState.BorderColor = Color.DarkGray;
             btnXemChiTiet.DisabledState.CustomBorderColor = Color.DarkGray;
             btnXemChiTiet.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -451,7 +451,7 @@ namespace Layout_QLTV.Child_UC.QLSach
             btnXemChiTiet.ImageSize = new Size(0, 0);
             btnXemChiTiet.Location = new Point(409, 1178);
             btnXemChiTiet.Name = "btnXemChiTiet";
-            btnXemChiTiet.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btnXemChiTiet.ShadowDecoration.CustomizableEdges = customizableEdges42;
             btnXemChiTiet.Size = new Size(1216, 79);
             btnXemChiTiet.TabIndex = 6;
             btnXemChiTiet.Text = "Xem chi tiết";
